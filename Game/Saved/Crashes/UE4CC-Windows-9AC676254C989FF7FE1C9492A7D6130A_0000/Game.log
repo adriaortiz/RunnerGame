@@ -1,0 +1,721 @@
+﻿Log file open, 03/28/18 19:44:25
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Game
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-2102869385) SRandInit(-2102869385).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.194836
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: E:/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.28-17.44.25:767][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.28-17.44.25:767][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.28-17.44.25:812][  0]LogInit: Computer: ADRIAN-PC
+[2018.03.28-17.44.25:812][  0]LogInit: User: Adrian
+[2018.03.28-17.44.25:812][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.28-17.44.25:812][  0]LogInit: High frequency timer resolution =3.312851 MHz
+[2018.03.28-17.44.25:812][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2018.03.28-17.44.25:812][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.28-17.44.25:812][  0]LogMemory: Process Physical Memory: 281.21 MB used, 281.21 MB peak
+[2018.03.28-17.44.25:813][  0]LogMemory: Process Virtual Memory: 285.60 MB used, 285.60 MB peak
+[2018.03.28-17.44.25:813][  0]LogMemory: Physical Memory: 4045.04 MB used,  4107.66 MB free, 8152.70 MB total
+[2018.03.28-17.44.25:813][  0]LogMemory: Virtual Memory: 661.03 MB used,  4107.66 MB free, 8388608.00 MB total
+[2018.03.28-17.44.26:081][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.03.28-17.44.26:081][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.03.28-17.44.27:077][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.28-17.44.27:142][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2018.03.28-17.44.27:142][  0]LogD3D11RHI:       3998/0/3820 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.03.28-17.44.27:142][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.28-17.44.27:147][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.28-17.44.27:147][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.28-17.44.27:147][  0]LogWindows: EnumDisplayDevices:
+[2018.03.28-17.44.27:147][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2018.03.28-17.44.27:148][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.03.28-17.44.27:148][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.03.28-17.44.27:148][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.03.28-17.44.27:148][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2018.03.28-17.44.27:148][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2018.03.28-17.44.27:149][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2018.03.28-17.44.27:149][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.03.28-17.44.27:149][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2018.03.28-17.44.27:149][  0]LogD3D11RHI:   Driver Version: 391.24 (internal:23.21.13.9124, unified:391.24)
+[2018.03.28-17.44.27:149][  0]LogD3D11RHI:      Driver Date: 3-15-2018
+[2018.03.28-17.44.27:149][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.03.28-17.44.27:168][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.28-17.44.27:191][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.28-17.44.27:238][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Intermediate/Shaders/WorkingDirectory/8728/).
+[2018.03.28-17.44.27:238][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Adrian/AppData/Local/Temp/UnrealShaderWorkingDir/2DF5F965453A174A9997968BA2388D64/'.
+[2018.03.28-17.44.27:239][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.28-17.44.28:384][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.28-17.44.28:429][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.28-17.44.28:473][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.28-17.44.28:518][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.28-17.44.28:576][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.28-17.44.28:623][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.28-17.44.28:668][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.28-17.44.28:713][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.28-17.44.28:751][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.28-17.44.28:802][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.28-17.44.28:847][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.28-17.44.28:891][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.28-17.44.28:935][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.28-17.44.28:979][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.28-17.44.29:023][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.28-17.44.29:111][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.28-17.44.29:111][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.28-17.44.29:143][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.28-17.44.29:256][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.28-17.44.29:279][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.28-17.44.29:324][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.28-17.44.29:368][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.28-17.44.29:413][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.28-17.44.29:457][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.28-17.44.29:457][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.28-17.44.30:057][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.28-17.44.30:480][  0]LogDerivedDataCache: Loaded boot cache 0.42s 93MB C:/Users/Adrian/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.03.28-17.44.30:480][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Adrian/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.03.28-17.44.30:480][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.28-17.44.30:480][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.28-17.44.30:480][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.28-17.44.30:480][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.28-17.44.30:508][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.28-17.44.30:521][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Adrian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.28-17.44.30:532][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.28-17.44.30:532][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.28-17.44.30:554][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.28-17.44.30:555][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.28-17.44.32:234][  0]LogAssetRegistry: FAssetRegistry took 0.0242 seconds to start up
+[2018.03.28-17.44.32:398][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.28-17.44.32:402][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.03.28-17.44.32:814][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.28-17.44.32:849][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.28-17.44.32:849][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.28-17.44.32:849][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.28-17.44.32:849][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.28-17.44.32:849][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.28-17.44.33:178][  0]LogNetVersion: Game , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2957514414)
+[2018.03.28-17.44.33:341][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.021052 seconds
+[2018.03.28-17.44.33:347][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.03.28-17.44.33:347][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2018.03.28-17.44.33:347][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.28-17.44.33:396][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.28-17.44.37:002][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.28-17.44.37:039][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.28-17.44.37:677][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.28-17.44.38:055][  0]SourceControl: Source control is disabled
+[2018.03.28-17.44.38:055][  0]SourceControl: Source control is disabled
+[2018.03.28-17.44.38:108][  0]SourceControl: Source control is disabled
+[2018.03.28-17.44.38:162][  0]SourceControl: Source control is disabled
+[2018.03.28-17.44.38:711][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.28-17.44.38:949][  0]LogOcInput: OculusInput pre-init called
+[2018.03.28-17.44.39:208][  0]LogEngine: Initializing Engine...
+[2018.03.28-17.44.39:210][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.28-17.44.39:425][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.28-17.44.39:425][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.28-17.44.39:550][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.28-17.44.39:565][  0]LogInit: XAudio2 using 'Altavoces (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.28-17.44.39:582][  0]LogInit: FAudioDevice initialized.
+[2018.03.28-17.44.39:680][  0]LogDerivedDataCache: Saved boot cache 0.10s 93MB C:/Users/Adrian/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.03.28-17.44.39:697][  0]LogInit: Texture streaming: Enabled
+[2018.03.28-17.44.39:805][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.28-17.44.40:025][  0]LogInit: Transaction tracking system initialized
+[2018.03.28-17.44.40:337][  0]BlueprintLog: New page: Editor Load
+[2018.03.28-17.44.41:170][  0]LocalizationService: Localization service is disabled
+[2018.03.28-17.44.41:856][  0]LogConsoleResponse: Display: 
+[2018.03.28-17.44.42:280][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.28-17.44.42:280][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.28-17.44.42:280][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.28-17.44.43:831][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Content/' took 0.01s
+[2018.03.28-17.44.43:935][  0]SourceControl: Source control is disabled
+[2018.03.28-17.44.43:935][  0]Cmd: MAP LOAD FILE="../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.28-17.44.43:935][  0]LogEditorServer: Warning: Can't find file '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2018.03.28-17.44.43:935][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.28-17.44.43:965][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 29.815ms to complete.
+[2018.03.28-17.44.43:965][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.030
+[2018.03.28-17.44.44:183][  0]LogCollectionManager: Loaded 0 collections in 0.001324 seconds
+[2018.03.28-17.44.44:275][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Saved/Collections/' took 0.01s
+[2018.03.28-17.44.44:275][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Content/Developers/Adrian/Collections/' took 0.01s
+[2018.03.28-17.44.44:275][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Content/Collections/' took 0.01s
+[2018.03.28-17.44.44:275][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.03.28-17.44.44:284][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2386 classes and 500 folders.
+[2018.03.28-17.44.44:335][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.03.28-17.44.45:168][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.03.28-17.44.45:244][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.03.28-17.44.45:269][  0]LogSlate: Took 0.000294 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.28-17.44.45:272][  0]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.28-17.44.45:278][  0]LogSlate: Took 0.000121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.28-17.44.45:384][  0]LogRenderer: Reallocating scene render targets to support 1104x576 Format 10 NumSamples 1 (Frame:1).
+[2018.03.28-17.44.45:613][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.03.28-17.44.45:613][  0]LogLoad: (Engine Initialization) Total time: 23.06 seconds
+[2018.03.28-17.44.45:613][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.28-17.44.45:613][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.28-17.44.45:975][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.28-17.44.46:048][  0]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.28-17.44.46:303][  1]LogAssetRegistry: Asset discovery search completed in 14.0889 seconds
+[2018.03.28-17.44.46:306][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.03.28-17.44.46:306][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000047 seconds (updated 0 objects)
+[2018.03.28-17.44.46:955][  3]LogSlate: Took 0.000381 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.28-17.44.52:711][365]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.28-17.44.52:972][365]LogAIModule: Creating AISystem for world Level1
+[2018.03.28-17.44.52:996][365]Cmd: MAP LOAD FILE="../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.28-17.44.52:996][365]LightingResults: New page: Lighting Build
+[2018.03.28-17.44.53:030][365]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0006 seconds. Added 5 classes and 0 folders.
+[2018.03.28-17.44.53:031][365]LoadErrors: New page: Loading map: Level1.umap
+[2018.03.28-17.44.53:031][365]MapCheck: New page: Map Check
+[2018.03.28-17.44.53:031][365]LightingResults: New page: Lighting Build
+[2018.03.28-17.44.53:056][365]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.28-17.44.53:094][365]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.28-17.44.53:129][365]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 34.922ms to complete.
+[2018.03.28-17.44.53:129][365]LogFileHelpers: Loading map 'Level1' took 0.134
+[2018.03.28-17.44.56:889][644]LogEditorViewport: Clicking on Actor (LMB): ObjectPresent_C (ObjectPresent)
+[2018.03.28-17.45.02:070][111]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.28-17.45.02:106][111]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.45.02:106][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.28-17.45.02:107][111]PIE: New page: PIE session: Level1 (Mar 28, 2018, 9:45:02 PM)
+[2018.03.28-17.45.02:107][111]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.03.28-17.45.02:111][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003906s)
+[2018.03.28-17.45.02:111][111]LogAIModule: Creating AISystem for world Level1
+[2018.03.28-17.45.02:111][111]LogPlayLevel: PIE: World Init took: (0.000688s)
+[2018.03.28-17.45.02:112][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.004972s)
+[2018.03.28-17.45.02:127][111]LogInit: XAudio2 using 'Altavoces (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.28-17.45.02:133][111]LogInit: FAudioDevice initialized.
+[2018.03.28-17.45.02:178][111]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.03.28-17.45.02:186][111]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.28-19.45.02
+[2018.03.28-17.45.02:187][111]LogWorld: Bringing up level for play took: 0.005775
+[2018.03.28-17.45.02:231][111]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.03.28-17.45.02:232][111]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.867
+[2018.03.28-17.45.02:232][111]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.45.07:956][796]LogNet: Browse: /Game/Levels/Game_Over
+[2018.03.28-17.45.07:956][796]LogLoad: LoadMap: /Game/Levels/Game_Over
+[2018.03.28-17.45.07:967][796]Cmd: MEM
+[2018.03.28-17.45.07:976][796]LogMemory: Platform Memory Stats for Windows
+[2018.03.28-17.45.07:976][796]LogMemory: Process Physical Memory: 1028.55 MB used, 1168.97 MB peak
+[2018.03.28-17.45.07:976][796]LogMemory: Process Virtual Memory: 1432.35 MB used, 1480.20 MB peak
+[2018.03.28-17.45.07:976][796]LogMemory: Physical Memory: 4861.70 MB used,  3291.00 MB free, 8152.70 MB total
+[2018.03.28-17.45.07:976][796]LogMemory: Virtual Memory: 2107.77 MB used,  3291.00 MB free, 8388608.00 MB total
+[2018.03.28-17.45.07:976][796]LogMemory: 
+[2018.03.28-17.45.07:976][796]Allocator Stats for TBB: (not implemented)
+[2018.03.28-17.45.08:272][796]LogAIModule: Creating AISystem for world Game_Over
+[2018.03.28-17.45.08:272][796]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.03.28-17.45.08:273][796]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Over.Game_Over up for play (max tick rate 0) at 2018.03.28-19.45.08
+[2018.03.28-17.45.08:274][796]LogWorld: Bringing up level for play took: 0.000871
+[2018.03.28-17.45.08:274][796]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.28-17.45.08:275][796]LogLoad: Took 0.317980 seconds to LoadMap(/Game/Levels/Game_Over)
+[2018.03.28-17.45.10:774][ 95]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.45.10:808][ 95]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.45.12:111][234]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.28-17.45.12:129][234]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.45.12:129][234]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.28-17.45.12:130][234]PIE: New page: PIE session: Level1 (Mar 28, 2018, 9:45:12 PM)
+[2018.03.28-17.45.12:130][234]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.03.28-17.45.12:134][234]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003954s)
+[2018.03.28-17.45.12:134][234]LogAIModule: Creating AISystem for world Level1
+[2018.03.28-17.45.12:134][234]LogPlayLevel: PIE: World Init took: (0.000601s)
+[2018.03.28-17.45.12:135][234]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.004824s)
+[2018.03.28-17.45.12:150][234]LogInit: XAudio2 using 'Altavoces (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.28-17.45.12:156][234]LogInit: FAudioDevice initialized.
+[2018.03.28-17.45.12:185][234]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.03.28-17.45.12:189][234]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.28-19.45.12
+[2018.03.28-17.45.12:189][234]LogWorld: Bringing up level for play took: 0.002612
+[2018.03.28-17.45.12:190][234]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.824
+[2018.03.28-17.45.12:190][234]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.45.15:215][596]LogNet: Browse: /Game/Levels/Game_Over
+[2018.03.28-17.45.15:215][596]LogLoad: LoadMap: /Game/Levels/Game_Over
+[2018.03.28-17.45.15:225][596]Cmd: MEM
+[2018.03.28-17.45.15:234][596]LogMemory: Platform Memory Stats for Windows
+[2018.03.28-17.45.15:234][596]LogMemory: Process Physical Memory: 1128.77 MB used, 1184.59 MB peak
+[2018.03.28-17.45.15:234][596]LogMemory: Process Virtual Memory: 1529.94 MB used, 1695.45 MB peak
+[2018.03.28-17.45.15:234][596]LogMemory: Physical Memory: 4877.37 MB used,  3275.33 MB free, 8152.70 MB total
+[2018.03.28-17.45.15:234][596]LogMemory: Virtual Memory: 2205.15 MB used,  3275.33 MB free, 8388608.00 MB total
+[2018.03.28-17.45.15:234][596]LogMemory: 
+[2018.03.28-17.45.15:234][596]Allocator Stats for TBB: (not implemented)
+[2018.03.28-17.45.15:237][596]LogAIModule: Creating AISystem for world Game_Over
+[2018.03.28-17.45.15:237][596]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.03.28-17.45.15:239][596]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Over.Game_Over up for play (max tick rate 0) at 2018.03.28-19.45.15
+[2018.03.28-17.45.15:239][596]LogWorld: Bringing up level for play took: 0.000737
+[2018.03.28-17.45.15:239][596]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.28-17.45.15:240][596]LogLoad: Took 0.025514 seconds to LoadMap(/Game/Levels/Game_Over)
+[2018.03.28-17.45.15:996][686]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.45.16:034][686]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.45.17:305][822]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.28-17.45.17:323][822]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.45.17:323][822]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.28-17.45.17:323][822]PIE: New page: PIE session: Level1 (Mar 28, 2018, 9:45:17 PM)
+[2018.03.28-17.45.17:323][822]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.03.28-17.45.17:327][822]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003968s)
+[2018.03.28-17.45.17:328][822]LogAIModule: Creating AISystem for world Level1
+[2018.03.28-17.45.17:328][822]LogPlayLevel: PIE: World Init took: (0.000605s)
+[2018.03.28-17.45.17:328][822]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.004812s)
+[2018.03.28-17.45.17:343][822]LogInit: XAudio2 using 'Altavoces (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.28-17.45.17:348][822]LogInit: FAudioDevice initialized.
+[2018.03.28-17.45.17:381][822]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.03.28-17.45.17:384][822]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.28-19.45.17
+[2018.03.28-17.45.17:384][822]LogWorld: Bringing up level for play took: 0.002679
+[2018.03.28-17.45.17:385][822]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.019
+[2018.03.28-17.45.17:385][822]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.45.24:590][685]LogNet: Browse: /Game/Levels/Game_Over
+[2018.03.28-17.45.24:590][685]LogLoad: LoadMap: /Game/Levels/Game_Over
+[2018.03.28-17.45.24:600][685]Cmd: MEM
+[2018.03.28-17.45.24:609][685]LogMemory: Platform Memory Stats for Windows
+[2018.03.28-17.45.24:609][685]LogMemory: Process Physical Memory: 1121.41 MB used, 1184.59 MB peak
+[2018.03.28-17.45.24:609][685]LogMemory: Process Virtual Memory: 1521.80 MB used, 1695.45 MB peak
+[2018.03.28-17.45.24:609][685]LogMemory: Physical Memory: 4865.90 MB used,  3286.80 MB free, 8152.70 MB total
+[2018.03.28-17.45.24:609][685]LogMemory: Virtual Memory: 2197.02 MB used,  3286.80 MB free, 8388608.00 MB total
+[2018.03.28-17.45.24:609][685]LogMemory: 
+[2018.03.28-17.45.24:609][685]Allocator Stats for TBB: (not implemented)
+[2018.03.28-17.45.24:612][685]LogAIModule: Creating AISystem for world Game_Over
+[2018.03.28-17.45.24:612][685]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.03.28-17.45.24:613][685]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Over.Game_Over up for play (max tick rate 0) at 2018.03.28-19.45.24
+[2018.03.28-17.45.24:614][685]LogWorld: Bringing up level for play took: 0.000738
+[2018.03.28-17.45.24:614][685]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.28-17.45.24:615][685]LogLoad: Took 0.025275 seconds to LoadMap(/Game/Levels/Game_Over)
+[2018.03.28-17.45.25:403][779]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.45.25:448][779]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.45.35:275][914]LogEditorViewport: Clicking on Actor (LMB): ObjectPresent_C (ObjectPresent)
+[2018.03.28-17.45.38:863][268]LogEditorViewport: Clicking on Actor (LMB): ObjectPresent_C (ObjectPresent2)
+[2018.03.28-17.45.39:609][352]Cmd: DELETE
+[2018.03.28-17.45.39:609][352]Cmd: ACTOR DELETE
+[2018.03.28-17.45.39:609][352]LogEditorActor: Deleted Actor: ObjectPresent_C
+[2018.03.28-17.45.39:619][352]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.03.28-17.45.40:266][429]LogEditorViewport: Clicking on Actor (LMB): ObjectPresent_C (ObjectPresent3)
+[2018.03.28-17.45.40:587][463]Cmd: DELETE
+[2018.03.28-17.45.40:587][463]Cmd: ACTOR DELETE
+[2018.03.28-17.45.40:587][463]LogEditorActor: Deleted Actor: ObjectPresent_C
+[2018.03.28-17.45.40:597][463]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.03.28-17.45.40:985][509]LogEditorViewport: Clicking on Actor (LMB): ObjectPresent_C (ObjectPresent4)
+[2018.03.28-17.45.41:121][521]Cmd: DELETE
+[2018.03.28-17.45.41:121][521]Cmd: ACTOR DELETE
+[2018.03.28-17.45.41:121][521]LogEditorActor: Deleted Actor: ObjectPresent_C
+[2018.03.28-17.45.41:130][521]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2018.03.28-17.46.34:485][374]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
+[2018.03.28-17.46.35:216][374]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.28-17.46.35:275][374]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.28-17.46.35:365][375]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.28-17.47.35:574][645]LogMetaData: Removing '/Game/Enemies/ObjectJumpPresent.ObjectJumpPresent_C' ref from Metadata '/Game/Enemies/ObjectPresent.PackageMetaData'
+[2018.03.28-17.47.35:574][645]LogMetaData: Removing '/Game/Enemies/ObjectJumpPresent.ObjectJumpPresent:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Enemies/ObjectPresent.PackageMetaData'
+[2018.03.28-17.47.35:574][645]LogMetaData: Removing '/Game/Enemies/ObjectJumpPresent.ObjectJumpPresent:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Enemies/ObjectPresent.PackageMetaData'
+[2018.03.28-17.47.35:574][645]LogMetaData: Removing '/Game/Enemies/ObjectJumpPresent.ObjectJumpPresent:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Enemies/ObjectPresent.PackageMetaData'
+[2018.03.28-17.47.35:574][645]LogMetaData: Removing '/Game/Enemies/ObjectJumpPresent.ObjectJumpPresent:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemies/ObjectPresent.PackageMetaData'
+[2018.03.28-17.47.35:574][645]LogMetaData: Removing '/Game/Enemies/ObjectJumpPresent.SKEL_ObjectJumpPresent_C' ref from Metadata '/Game/Enemies/ObjectPresent.PackageMetaData'
+[2018.03.28-17.47.35:661][645]LogSavePackage: Save=52.44ms
+[2018.03.28-17.47.35:661][645]LogSavePackage: Moving '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Saved/ObjectJumpPresent542C5E67441470F8084933B5B4EABAE2.tmp' to '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Content/Enemies/ObjectJumpPresent.uasset'
+[2018.03.28-17.47.35:664][645]LogSavePackage: Display: Finished SavePackage ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Content/Enemies/ObjectJumpPresent.uasset
+[2018.03.28-17.47.35:668][645]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Enemies/ObjectPresent" FILE="../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Content/Enemies/ObjectPresent.uasset" SILENT=true
+[2018.03.28-17.47.35:673][645]LogSavePackage: Save=1.26ms
+[2018.03.28-17.47.35:673][645]LogSavePackage: Moving '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Saved/ObjectPresent8A5F70B44E5094F2E8137E8243B6EBD6.tmp' to '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Content/Enemies/ObjectPresent.uasset'
+[2018.03.28-17.47.35:676][645]LogSavePackage: Display: Finished SavePackage ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Content/Enemies/ObjectPresent.uasset
+[2018.03.28-17.48.08:493][ 66]LogRenderer: Reallocating scene render targets to support 1144x900 Format 10 NumSamples 1 (Frame:1).
+[2018.03.28-17.48.47:167][842]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.28-17.48.47:196][842]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.48.47:196][842]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.28-17.48.47:204][842]LogPlayLevel: [PlayLevel] Compiling ObjectAgacharPresent before play...
+[2018.03.28-17.48.47:579][842]LogPlayLevel: [PlayLevel] Compiling Level1 before play...
+[2018.03.28-17.48.47:611][842]LogPlayLevel: PlayLevel: Blueprint regeneration took 414 ms (2 blueprints)
+[2018.03.28-17.48.47:611][842]PIE: New page: PIE session: Level1 (Mar 28, 2018, 9:48:47 PM)
+[2018.03.28-17.48.47:611][842]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.03.28-17.48.47:615][842]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003832s)
+[2018.03.28-17.48.47:616][842]LogAIModule: Creating AISystem for world Level1
+[2018.03.28-17.48.47:616][842]LogPlayLevel: PIE: World Init took: (0.000689s)
+[2018.03.28-17.48.47:616][842]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.004812s)
+[2018.03.28-17.48.47:639][842]LogInit: XAudio2 using 'Altavoces (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.28-17.48.47:646][842]LogInit: FAudioDevice initialized.
+[2018.03.28-17.48.47:676][842]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.03.28-17.48.47:682][842]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.28-19.48.47
+[2018.03.28-17.48.47:682][842]LogWorld: Bringing up level for play took: 0.005244
+[2018.03.28-17.48.47:685][842]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.315
+[2018.03.28-17.48.47:685][842]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.48.50:389][163]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.48.50:432][163]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.48.52:562][365]LogEditorViewport: Clicking on Actor (LMB): ObjectAgacharPresent_C (ObjectAgacharPresent)
+[2018.03.28-17.49.06:528][848]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2018.03.28-17.49.08:978][ 44]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_27)
+[2018.03.28-17.49.11:635][316]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2018.03.28-17.49.13:127][446]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge_27)
+[2018.03.28-17.49.18:836][ 51]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2018.03.28-17.49.21:790][293]LogEditorViewport: Clicking on Actor (LMB): ObjectAgacharPresent_C (ObjectAgacharPresent)
+[2018.03.28-17.49.31:979][287]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.28-17.49.32:000][287]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.49.32:000][287]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.28-17.49.32:000][287]PIE: New page: PIE session: Level1 (Mar 28, 2018, 9:49:32 PM)
+[2018.03.28-17.49.32:000][287]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.03.28-17.49.32:004][287]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003716s)
+[2018.03.28-17.49.32:004][287]LogAIModule: Creating AISystem for world Level1
+[2018.03.28-17.49.32:004][287]LogPlayLevel: PIE: World Init took: (0.000676s)
+[2018.03.28-17.49.32:005][287]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.004628s)
+[2018.03.28-17.49.32:026][287]LogInit: XAudio2 using 'Altavoces (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.28-17.49.32:032][287]LogInit: FAudioDevice initialized.
+[2018.03.28-17.49.32:059][287]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.03.28-17.49.32:062][287]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.28-19.49.32
+[2018.03.28-17.49.32:063][287]LogWorld: Bringing up level for play took: 0.002560
+[2018.03.28-17.49.32:064][287]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.693
+[2018.03.28-17.49.32:064][287]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.49.35:466][694]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.49.35:507][694]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.49.38:973][969]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.28-17.49.38:992][969]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.49.38:992][969]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.28-17.49.38:992][969]PIE: New page: PIE session: Level1 (Mar 28, 2018, 9:49:38 PM)
+[2018.03.28-17.49.38:992][969]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.03.28-17.49.38:996][969]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003793s)
+[2018.03.28-17.49.38:996][969]LogAIModule: Creating AISystem for world Level1
+[2018.03.28-17.49.38:997][969]LogPlayLevel: PIE: World Init took: (0.000644s)
+[2018.03.28-17.49.38:997][969]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.004676s)
+[2018.03.28-17.49.39:019][969]LogInit: XAudio2 using 'Altavoces (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.28-17.49.39:024][969]LogInit: FAudioDevice initialized.
+[2018.03.28-17.49.39:054][969]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.03.28-17.49.39:058][969]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.28-19.49.39
+[2018.03.28-17.49.39:059][969]LogWorld: Bringing up level for play took: 0.003814
+[2018.03.28-17.49.39:061][969]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.309
+[2018.03.28-17.49.39:062][969]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.49.42:023][320]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.49.42:066][320]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.49.43:180][423]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.28-17.49.43:198][423]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.49.43:198][423]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.28-17.49.43:198][423]PIE: New page: PIE session: Level1 (Mar 28, 2018, 9:49:43 PM)
+[2018.03.28-17.49.43:199][423]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.03.28-17.49.43:202][423]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003617s)
+[2018.03.28-17.49.43:203][423]LogAIModule: Creating AISystem for world Level1
+[2018.03.28-17.49.43:203][423]LogPlayLevel: PIE: World Init took: (0.000647s)
+[2018.03.28-17.49.43:203][423]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.004503s)
+[2018.03.28-17.49.43:225][423]LogInit: XAudio2 using 'Altavoces (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.28-17.49.43:231][423]LogInit: FAudioDevice initialized.
+[2018.03.28-17.49.43:265][423]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.03.28-17.49.43:271][423]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.28-19.49.43
+[2018.03.28-17.49.43:272][423]LogWorld: Bringing up level for play took: 0.005148
+[2018.03.28-17.49.43:274][423]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.096
+[2018.03.28-17.49.43:275][423]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.49.46:263][779]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.49.46:301][779]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.49.47:286][878]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.28-17.49.47:305][878]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.49.47:305][878]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.28-17.49.47:305][878]PIE: New page: PIE session: Level1 (Mar 28, 2018, 9:49:47 PM)
+[2018.03.28-17.49.47:305][878]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.03.28-17.49.47:310][878]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004340s)
+[2018.03.28-17.49.47:310][878]LogAIModule: Creating AISystem for world Level1
+[2018.03.28-17.49.47:310][878]LogPlayLevel: PIE: World Init took: (0.000681s)
+[2018.03.28-17.49.47:310][878]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.005301s)
+[2018.03.28-17.49.47:333][878]LogInit: XAudio2 using 'Altavoces (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.28-17.49.47:338][878]LogInit: FAudioDevice initialized.
+[2018.03.28-17.49.47:366][878]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.03.28-17.49.47:371][878]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.28-19.49.47
+[2018.03.28-17.49.47:372][878]LogWorld: Bringing up level for play took: 0.005188
+[2018.03.28-17.49.47:374][878]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.004
+[2018.03.28-17.49.47:375][878]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.49.50:387][237]LogNet: Browse: /Game/Levels/Game_Over
+[2018.03.28-17.49.50:387][237]LogLoad: LoadMap: /Game/Levels/Game_Over
+[2018.03.28-17.49.50:404][237]Cmd: MEM
+[2018.03.28-17.49.50:420][237]LogMemory: Platform Memory Stats for Windows
+[2018.03.28-17.49.50:420][237]LogMemory: Process Physical Memory: 1421.20 MB used, 1429.68 MB peak
+[2018.03.28-17.49.50:420][237]LogMemory: Process Virtual Memory: 2445.91 MB used, 2482.79 MB peak
+[2018.03.28-17.49.50:420][237]LogMemory: Physical Memory: 5128.70 MB used,  3024.00 MB free, 8152.70 MB total
+[2018.03.28-17.49.50:420][237]LogMemory: Virtual Memory: 3130.05 MB used,  3024.00 MB free, 8388608.00 MB total
+[2018.03.28-17.49.50:420][237]LogMemory: 
+[2018.03.28-17.49.50:420][237]Allocator Stats for TBB: (not implemented)
+[2018.03.28-17.49.50:452][237]LogAIModule: Creating AISystem for world Game_Over
+[2018.03.28-17.49.50:453][237]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.03.28-17.49.50:454][237]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Over.Game_Over up for play (max tick rate 0) at 2018.03.28-19.49.50
+[2018.03.28-17.49.50:454][237]LogWorld: Bringing up level for play took: 0.000882
+[2018.03.28-17.49.50:455][237]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.28-17.49.50:456][237]LogLoad: Took 0.069250 seconds to LoadMap(/Game/Levels/Game_Over)
+[2018.03.28-17.49.50:704][266]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.49.50:741][266]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.49.52:009][378]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.28-17.49.52:033][378]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.49.52:033][378]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.28-17.49.52:033][378]PIE: New page: PIE session: Level1 (Mar 28, 2018, 9:49:52 PM)
+[2018.03.28-17.49.52:033][378]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.03.28-17.49.52:037][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003631s)
+[2018.03.28-17.49.52:037][378]LogAIModule: Creating AISystem for world Level1
+[2018.03.28-17.49.52:037][378]LogPlayLevel: PIE: World Init took: (0.000614s)
+[2018.03.28-17.49.52:037][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.004537s)
+[2018.03.28-17.49.52:060][378]LogInit: XAudio2 using 'Altavoces (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.28-17.49.52:066][378]LogInit: FAudioDevice initialized.
+[2018.03.28-17.49.52:094][378]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.03.28-17.49.52:097][378]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.28-19.49.52
+[2018.03.28-17.49.52:097][378]LogWorld: Bringing up level for play took: 0.002461
+[2018.03.28-17.49.52:098][378]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.727
+[2018.03.28-17.49.52:098][378]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.49.54:883][711]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.49.54:922][711]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.49.59:725][ 28]LogSavePackage: Save=87.37ms
+[2018.03.28-17.49.59:725][ 28]LogSavePackage: Moving '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Saved/Level166A339AA4E2F92489EFB0FA1EE731261.tmp' to '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Content/Levels/Level1.umap'
+[2018.03.28-17.49.59:728][ 28]LogSavePackage: Display: Finished SavePackage ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Content/Levels/Level1.umap
+[2018.03.28-17.49.59:757][ 28]LogFileHelpers: Saving map 'Level1' took 0.180
+[2018.03.28-17.51.01:951][751]LogMetaData: Removing '/Game/Enemies/ObjectJumpPresent1.SKEL_ObjectJumpPresent1_C' ref from Metadata '/Game/Enemies/ObjectAgacharPresent.PackageMetaData'
+[2018.03.28-17.51.01:951][751]LogMetaData: Removing '/Game/Enemies/ObjectJumpPresent1.ObjectJumpPresent1_C' ref from Metadata '/Game/Enemies/ObjectAgacharPresent.PackageMetaData'
+[2018.03.28-17.51.02:037][751]LogSavePackage: Save=55.11ms
+[2018.03.28-17.51.02:037][751]LogSavePackage: Moving '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Saved/ObjectJumpPresent1CB68DE1540311FEB5E6F3FB78892C875.tmp' to '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Content/Enemies/ObjectJumpPresent1.uasset'
+[2018.03.28-17.51.02:040][751]LogSavePackage: Display: Finished SavePackage ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Content/Enemies/ObjectJumpPresent1.uasset
+[2018.03.28-17.51.02:046][751]LogSavePackage: Save=1.49ms
+[2018.03.28-17.51.02:046][751]LogSavePackage: Moving '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Saved/ObjectAgacharPresentB49067B048E0449A3E750B8AEEB70409.tmp' to '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Content/Enemies/ObjectAgacharPresent.uasset'
+[2018.03.28-17.51.02:049][751]LogSavePackage: Display: Finished SavePackage ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Content/Enemies/ObjectAgacharPresent.uasset
+[2018.03.28-17.51.31:222][326]LogMetaData: Removing '/Game/Enemies/ObjectAgacharPresent1.ObjectAgacharPresent1_C' ref from Metadata '/Game/Enemies/ObjectJumpPresent.PackageMetaData'
+[2018.03.28-17.51.31:222][326]LogMetaData: Removing '/Game/Enemies/ObjectAgacharPresent1.SKEL_ObjectAgacharPresent1_C' ref from Metadata '/Game/Enemies/ObjectJumpPresent.PackageMetaData'
+[2018.03.28-17.51.31:222][326]LogMetaData: Removing '/Game/Enemies/ObjectAgacharPresent1.ObjectAgacharPresent1:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Enemies/ObjectJumpPresent.PackageMetaData'
+[2018.03.28-17.51.31:222][326]LogMetaData: Removing '/Game/Enemies/ObjectAgacharPresent1.ObjectAgacharPresent1:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Enemies/ObjectJumpPresent.PackageMetaData'
+[2018.03.28-17.51.31:222][326]LogMetaData: Removing '/Game/Enemies/ObjectAgacharPresent1.ObjectAgacharPresent1:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Enemies/ObjectJumpPresent.PackageMetaData'
+[2018.03.28-17.51.31:222][326]LogMetaData: Removing '/Game/Enemies/ObjectAgacharPresent1.ObjectAgacharPresent1:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Enemies/ObjectJumpPresent.PackageMetaData'
+[2018.03.28-17.51.31:309][326]LogSavePackage: Save=55.43ms
+[2018.03.28-17.51.31:309][326]LogSavePackage: Moving '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Saved/ObjectAgacharPresent1EE8AA30C46F032B62C59339C1D2D25D2.tmp' to '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Content/Enemies/ObjectAgacharPresent1.uasset'
+[2018.03.28-17.51.31:312][326]LogSavePackage: Display: Finished SavePackage ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Content/Enemies/ObjectAgacharPresent1.uasset
+[2018.03.28-17.51.31:321][326]LogSavePackage: Save=1.25ms
+[2018.03.28-17.51.31:321][326]LogSavePackage: Moving '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Saved/ObjectJumpPresent36C5121B4E540642B038E789BD09ED57.tmp' to '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Content/Enemies/ObjectJumpPresent.uasset'
+[2018.03.28-17.51.31:325][326]LogSavePackage: Display: Finished SavePackage ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/Game/Content/Enemies/ObjectJumpPresent.uasset
+[2018.03.28-17.51.37:372][858]LogEditorViewport: Clicking on Actor (LMB): ObjectAgacharPresent1_C (ObjectPresent)
+[2018.03.28-17.51.38:163][940]Cmd: DELETE
+[2018.03.28-17.51.38:163][940]Cmd: ACTOR DELETE
+[2018.03.28-17.51.38:163][940]LogEditorActor: Deleted Actor: ObjectAgacharPresent1_C
+[2018.03.28-17.51.38:181][940]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2018.03.28-17.52.21:616][444]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.28-17.52.21:646][444]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.52.21:646][444]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.28-17.52.21:654][444]LogPlayLevel: [PlayLevel] Compiling ObjectAgacharPresent1 before play...
+[2018.03.28-17.52.22:223][444]LogPlayLevel: [PlayLevel] Compiling ObjectSpacePresent before play...
+[2018.03.28-17.52.22:412][444]LogPlayLevel: [PlayLevel] Compiling Level1 before play...
+[2018.03.28-17.52.22:449][444]LogPlayLevel: PlayLevel: Blueprint regeneration took 803 ms (3 blueprints)
+[2018.03.28-17.52.22:449][444]PIE: New page: PIE session: Level1 (Mar 28, 2018, 9:52:22 PM)
+[2018.03.28-17.52.22:450][444]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.03.28-17.52.22:454][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003943s)
+[2018.03.28-17.52.22:454][444]LogAIModule: Creating AISystem for world Level1
+[2018.03.28-17.52.22:454][444]LogPlayLevel: PIE: World Init took: (0.000775s)
+[2018.03.28-17.52.22:455][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.005034s)
+[2018.03.28-17.52.22:478][444]LogInit: XAudio2 using 'Altavoces (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.28-17.52.22:484][444]LogInit: FAudioDevice initialized.
+[2018.03.28-17.52.22:515][444]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.03.28-17.52.22:518][444]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.28-19.52.22
+[2018.03.28-17.52.22:518][444]LogWorld: Bringing up level for play took: 0.002622
+[2018.03.28-17.52.22:520][444]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 1.146
+[2018.03.28-17.52.22:520][444]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.52.25:309][777]LogNet: Browse: /Game/Levels/Game_Over
+[2018.03.28-17.52.25:309][777]LogLoad: LoadMap: /Game/Levels/Game_Over
+[2018.03.28-17.52.25:328][777]Cmd: MEM
+[2018.03.28-17.52.25:345][777]LogMemory: Platform Memory Stats for Windows
+[2018.03.28-17.52.25:345][777]LogMemory: Process Physical Memory: 1498.05 MB used, 1510.64 MB peak
+[2018.03.28-17.52.25:345][777]LogMemory: Process Virtual Memory: 2663.17 MB used, 2663.18 MB peak
+[2018.03.28-17.52.25:345][777]LogMemory: Physical Memory: 5241.07 MB used,  2911.63 MB free, 8152.70 MB total
+[2018.03.28-17.52.25:345][777]LogMemory: Virtual Memory: 3357.76 MB used,  2911.63 MB free, 8388608.00 MB total
+[2018.03.28-17.52.25:345][777]LogMemory: 
+[2018.03.28-17.52.25:345][777]Allocator Stats for TBB: (not implemented)
+[2018.03.28-17.52.25:371][777]LogAIModule: Creating AISystem for world Game_Over
+[2018.03.28-17.52.25:371][777]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.03.28-17.52.25:373][777]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Over.Game_Over up for play (max tick rate 0) at 2018.03.28-19.52.25
+[2018.03.28-17.52.25:373][777]LogWorld: Bringing up level for play took: 0.001164
+[2018.03.28-17.52.25:373][777]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.28-17.52.25:375][777]LogLoad: Took 0.065664 seconds to LoadMap(/Game/Levels/Game_Over)
+[2018.03.28-17.52.26:173][872]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.52.26:208][872]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.52.32:504][533]LogEditorViewport: Clicking on Actor (LMB): ObjectAgacharPresent1_C (ObjectAgacharPresent1)
+[2018.03.28-17.52.41:299][446]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.28-17.52.41:323][446]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.52.41:323][446]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.03.28-17.52.41:331][446]LogPlayLevel: [PlayLevel] Compiling ObjectAgacharPresent1 before play...
+[2018.03.28-17.52.41:916][446]LogPlayLevel: PlayLevel: Blueprint regeneration took 593 ms (1 blueprints)
+[2018.03.28-17.52.41:916][446]PIE: New page: PIE session: Level1 (Mar 28, 2018, 9:52:41 PM)
+[2018.03.28-17.52.41:917][446]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.03.28-17.52.41:920][446]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003681s)
+[2018.03.28-17.52.41:921][446]LogAIModule: Creating AISystem for world Level1
+[2018.03.28-17.52.41:921][446]LogPlayLevel: PIE: World Init took: (0.000669s)
+[2018.03.28-17.52.41:921][446]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.004615s)
+[2018.03.28-17.52.41:944][446]LogInit: XAudio2 using 'Altavoces (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.28-17.52.41:949][446]LogInit: FAudioDevice initialized.
+[2018.03.28-17.52.41:979][446]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.03.28-17.52.41:982][446]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.28-19.52.41
+[2018.03.28-17.52.41:982][446]LogWorld: Bringing up level for play took: 0.002495
+[2018.03.28-17.52.41:983][446]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.609
+[2018.03.28-17.52.41:983][446]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.52.45:722][893]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.52.45:763][893]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.52.46:689][981]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.28-17.52.46:710][981]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.52.46:710][981]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.28-17.52.46:710][981]PIE: New page: PIE session: Level1 (Mar 28, 2018, 9:52:46 PM)
+[2018.03.28-17.52.46:710][981]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2018.03.28-17.52.46:715][981]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004220s)
+[2018.03.28-17.52.46:715][981]LogAIModule: Creating AISystem for world Level1
+[2018.03.28-17.52.46:715][981]LogPlayLevel: PIE: World Init took: (0.000657s)
+[2018.03.28-17.52.46:715][981]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.005134s)
+[2018.03.28-17.52.46:738][981]LogInit: XAudio2 using 'Altavoces (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.03.28-17.52.46:743][981]LogInit: FAudioDevice initialized.
+[2018.03.28-17.52.46:773][981]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.03.28-17.52.46:776][981]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.03.28-19.52.46
+[2018.03.28-17.52.46:777][981]LogWorld: Bringing up level for play took: 0.002524
+[2018.03.28-17.52.46:778][981]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.597
+[2018.03.28-17.52.46:778][981]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.52.50:304][403]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.52.50:346][403]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2018.03.28-17.53.02:309][522]LogEditorTransaction: Undo Set actor scale
+[2018.03.28-17.53.02:812][522]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.479 s
+[2018.03.28-17.53.02:812][522]LogOutputDevice: Error: === Handled ensure: ===
+[2018.03.28-17.53.02:812][522]LogOutputDevice: Error: 
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: Ensure condition failed: !GIsTransacting [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Editor\UnrealEd\Classes\Editor/TransBuffer.h] [Line: 72]
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: 
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: Stack: 
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000E0F23E36
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000E0CAC2D2
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000E0CC4746
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D2604352
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D25B305F
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: UE4Editor-DetailCustomizations.dll!0x00000000CD037AFE
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: UE4Editor-DetailCustomizations.dll!0x00000000CD023EF9
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: UE4Editor-DetailCustomizations.dll!0x00000000CCFC619B
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: UE4Editor-DetailCustomizations.dll!0x00000000CCFCAF77
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D4E59E90
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D4E4EBC1
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D4E1D857
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D4E1FA27
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D4EBA227
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D4CD725A
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D4CD7D7D
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D4C76E74
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D0227D34
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000CFE8B039
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000CFE18DBC
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000CFE1DABC
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D020FEB9
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D01B193B
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D01B560A
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D01B3937
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000D0215C3C
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000CFDC4400
+[2018.03.28-17.53.02:813][522]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000CFE4652D
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000CFE9759D
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D25B3D06
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D25DA552
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D25C2FD9
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D25C390B
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D2626D6B
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D266DE3F
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000CFE19451
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: UE4Editor-Kismet.dll!0x00000000CFE1E1B6
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D4C77DD0
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D4CB6850
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D2E04FAE
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: UE4Editor-UnrealEd.dll!0x00000000D2DF096F
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D4C64761
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D4C360BE
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D4C37CC6
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D4CB80B7
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000D4CA9B18
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000E0EFB498
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000E0EE3EE1
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000E0EFD5BB
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000E0EDF042
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: USER32.dll!0x0000000077999BBD
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: USER32.dll!0x00000000779998C2
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000E0EFDCC6
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: UE4Editor.exe!0x000000003F0E4BE2
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: UE4Editor.exe!0x000000003F0F3970
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: UE4Editor.exe!0x000000003F0F39EA
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: UE4Editor.exe!0x000000003F1002D9
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: UE4Editor.exe!0x000000003F101C47
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: kernel32.dll!0x00000000778759CD
+[2018.03.28-17.53.02:814][522]LogOutputDevice: Error: ntdll.dll!0x0000000077AAA561
+[2018.03.28-17.53.02:815][522]LogOutputDevice: Error: 
+[2018.03.28-17.53.02:819][522]LogStats:                SubmitErrorReport -  0.000 s
