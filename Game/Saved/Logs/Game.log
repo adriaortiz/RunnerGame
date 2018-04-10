@@ -1,4 +1,4 @@
-﻿Log file open, 04/09/18 15:41:36
+﻿Log file open, 04/10/18 11:38:16
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +9,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Game
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(1120204928) SRandInit(1120204928).
+LogInit: Display: RandInit(966927794) SRandInit(966927795).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.485379
+LogStats: Stats thread started at 3.055548
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -113,373 +113,414 @@ LogInit: Base directory: E:/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.04.09-13.41.37:227][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.09-13.41.37:227][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.04.09-13.41.37:261][  0]LogInit: Computer: ADRIAN-PC
-[2018.04.09-13.41.37:261][  0]LogInit: User: Adrian
-[2018.04.09-13.41.37:261][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.04.09-13.41.37:261][  0]LogInit: High frequency timer resolution =3.312812 MHz
-[2018.04.09-13.41.37:261][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2018.04.09-13.41.37:261][  0]LogMemory: Platform Memory Stats for Windows
-[2018.04.09-13.41.37:261][  0]LogMemory: Process Physical Memory: 281.38 MB used, 281.38 MB peak
-[2018.04.09-13.41.37:261][  0]LogMemory: Process Virtual Memory: 289.51 MB used, 289.51 MB peak
-[2018.04.09-13.41.37:261][  0]LogMemory: Physical Memory: 4404.61 MB used,  3748.09 MB free, 8152.70 MB total
-[2018.04.09-13.41.37:261][  0]LogMemory: Virtual Memory: 668.42 MB used,  3748.09 MB free, 8388608.00 MB total
-[2018.04.09-13.41.37:510][  0]LogInit: Overriding language with editor language configuration option (en).
-[2018.04.09-13.41.37:510][  0]LogInit: Overriding locale with editor locale configuration option (en).
-[2018.04.09-13.41.38:941][  0]LogD3D11RHI: D3D11 adapters:
-[2018.04.09-13.41.39:001][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
-[2018.04.09-13.41.39:001][  0]LogD3D11RHI:       3998/0/3820 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.04.09-13.41.39:001][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.04.09-13.41.39:007][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.04.09-13.41.39:007][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
-[2018.04.09-13.41.39:007][  0]LogWindows: EnumDisplayDevices:
-[2018.04.09-13.41.39:008][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
-[2018.04.09-13.41.39:008][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2018.04.09-13.41.39:008][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2018.04.09-13.41.39:008][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
-[2018.04.09-13.41.39:009][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
-[2018.04.09-13.41.39:009][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2018.04.09-13.41.39:009][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
-[2018.04.09-13.41.39:009][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.04.09-13.41.39:009][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
-[2018.04.09-13.41.39:009][  0]LogD3D11RHI:   Driver Version: 391.24 (internal:23.21.13.9124, unified:391.24)
-[2018.04.09-13.41.39:009][  0]LogD3D11RHI:      Driver Date: 3-15-2018
-[2018.04.09-13.41.39:009][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.04.09-13.41.39:028][  0]LogD3D11RHI: Async texture creation enabled
-[2018.04.09-13.41.39:054][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.04.09-13.41.39:101][  0]LogShaderCompilers: Guid format shader working directory is -46 characters bigger than the processId version (../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Intermediate/Shaders/WorkingDirectory/1060/).
-[2018.04.09-13.41.39:101][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Adrian/AppData/Local/Temp/UnrealShaderWorkingDir/637575B9428F6283D5CDF183DD1DA517/'.
-[2018.04.09-13.41.39:101][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.04.09-13.41.40:982][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.04.09-13.41.41:037][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.04.09-13.41.41:092][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.04.09-13.41.41:146][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.04.09-13.41.41:207][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.04.09-13.41.41:261][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.04.09-13.41.41:317][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.04.09-13.41.41:379][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.04.09-13.41.41:430][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.04.09-13.41.41:499][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.04.09-13.41.41:558][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.04.09-13.41.41:626][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.04.09-13.41.41:681][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.04.09-13.41.41:745][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.04.09-13.41.41:816][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.04.09-13.41.41:928][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.04.09-13.41.41:928][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.04.09-13.41.41:977][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.04.09-13.41.42:095][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.04.09-13.41.42:122][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.04.09-13.41.42:183][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.04.09-13.41.42:241][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.04.09-13.41.42:296][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.04.09-13.41.42:349][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.04.09-13.41.42:349][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.04.09-13.41.43:110][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.04.09-13.41.43:536][  0]LogDerivedDataCache: Loaded boot cache 0.43s 93MB C:/Users/Adrian/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2018.04.09-13.41.43:536][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Adrian/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2018.04.09-13.41.43:536][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.04.09-13.41.43:536][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.04.09-13.41.43:536][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.04.09-13.41.43:536][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.04.09-13.41.43:560][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.04.09-13.41.43:573][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Adrian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.04.09-13.41.43:592][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.04.09-13.41.43:592][  0]LogSlate: Using Freetype 2.6.0
-[2018.04.09-13.41.43:610][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.09-13.41.43:610][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.04.09-13.41.45:421][  0]LogAssetRegistry: FAssetRegistry took 0.0247 seconds to start up
-[2018.04.09-13.41.45:657][  0]LogInit: Selected Device Profile: [Windows]
-[2018.04.09-13.41.45:671][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.04.09-13.41.46:320][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.04.09-13.41.46:379][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.04.09-13.41.46:379][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.04.09-13.41.46:379][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.04.09-13.41.46:379][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.04.09-13.41.46:379][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.04.09-13.41.46:738][  0]LogNetVersion: Game , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2957514414)
-[2018.04.09-13.41.46:936][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.031487 seconds
-[2018.04.09-13.41.46:943][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2018.04.09-13.41.46:943][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
-[2018.04.09-13.41.46:943][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.04.09-13.41.47:023][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.04.09-13.41.51:031][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.04.09-13.41.51:072][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.04.09-13.41.51:792][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.04.09-13.41.52:228][  0]SourceControl: Source control is disabled
-[2018.04.09-13.41.52:228][  0]SourceControl: Source control is disabled
-[2018.04.09-13.41.52:305][  0]SourceControl: Source control is disabled
-[2018.04.09-13.41.52:359][  0]SourceControl: Source control is disabled
-[2018.04.09-13.41.53:015][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.04.09-13.41.53:295][  0]LogOcInput: OculusInput pre-init called
-[2018.04.09-13.41.53:582][  0]LogEngine: Initializing Engine...
-[2018.04.09-13.41.53:584][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.04.09-13.41.53:839][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.04.09-13.41.53:839][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.04.09-13.41.53:986][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.04.09-13.41.54:010][  0]LogInit: XAudio2 using 'Altavoces (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.09-13.41.54:032][  0]LogInit: FAudioDevice initialized.
-[2018.04.09-13.41.54:131][  0]LogDerivedDataCache: Saved boot cache 0.10s 93MB C:/Users/Adrian/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2018.04.09-13.41.54:150][  0]LogInit: Texture streaming: Enabled
-[2018.04.09-13.41.54:251][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.04.09-13.41.54:512][  0]LogInit: Transaction tracking system initialized
-[2018.04.09-13.41.54:855][  0]BlueprintLog: New page: Editor Load
-[2018.04.09-13.41.55:921][  0]LocalizationService: Localization service is disabled
-[2018.04.09-13.41.56:760][  0]LogConsoleResponse: Display: 
-[2018.04.09-13.41.57:357][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.04.09-13.41.57:357][  0]LogCook: Display: Mobile HDR setting 1
-[2018.04.09-13.41.57:357][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.04.09-13.41.58:418][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/' took 0.01s
-[2018.04.09-13.41.59:099][  0]SourceControl: Source control is disabled
-[2018.04.09-13.41.59:099][  0]Cmd: MAP LOAD FILE="../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Levels/Main_Menu_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.09-13.41.59:128][  0]LightingResults: New page: Lighting Build
-[2018.04.09-13.41.59:185][  0]MapCheck: New page: Map Check
-[2018.04.09-13.41.59:186][  0]LightingResults: New page: Lighting Build
-[2018.04.09-13.41.59:950][  0]LogAIModule: Creating AISystem for world Main_Menu_Level
-[2018.04.09-13.41.59:951][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.09-13.41.59:962][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.09-13.41.59:997][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 35.486ms to complete.
-[2018.04.09-13.41.59:997][  0]LogFileHelpers: Loading map 'Main_Menu_Level' took 0.899
-[2018.04.09-13.42.00:267][  0]LogCollectionManager: Loaded 0 collections in 0.001577 seconds
-[2018.04.09-13.42.00:352][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/Collections/' took 0.01s
-[2018.04.09-13.42.00:352][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Developers/Adrian/Collections/' took 0.01s
-[2018.04.09-13.42.00:352][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Collections/' took 0.01s
-[2018.04.09-13.42.00:352][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.04.09-13.42.00:362][  0]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 2386 classes and 500 folders.
-[2018.04.09-13.42.00:422][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2018.04.09-13.42.00:948][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2018.04.09-13.42.01:032][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2018.04.09-13.42.01:062][  0]LogSlate: Took 0.005555 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.04.09-13.42.01:065][  0]LogSlate: Took 0.000946 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.04.09-13.42.01:079][  0]LogSlate: Took 0.007787 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.04.09-13.42.01:221][  0]LogRenderer: Reallocating scene render targets to support 1104x576 Format 10 NumSamples 1 (Frame:1).
-[2018.04.09-13.42.01:258][  0]LogSlate: Took 0.001127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.09-13.42.01:378][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2018.04.09-13.42.01:378][  0]LogLoad: (Engine Initialization) Total time: 29.12 seconds
-[2018.04.09-13.42.01:378][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.04.09-13.42.01:378][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.04.09-13.42.01:736][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.04.09-13.42.02:069][  1]LogAssetRegistry: Asset discovery search completed in 16.6674 seconds
-[2018.04.09-13.42.02:071][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.04.09-13.42.02:071][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000054 seconds (updated 0 objects)
-[2018.04.09-13.42.02:733][  3]LogSlate: Took 0.000237 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.09-13.45.13:961][880]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.04.09-13.45.14:752][880]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
-[2018.04.09-13.45.14:752][880]LogLinker: Warning: Can't find file '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton'
-[2018.04.09-13.45.14:752][880]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
-[2018.04.09-13.45.14:752][880]LogLinker: Warning: Can't find file for asset '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton' while loading ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/Drone_2/Air_Drone_fbx.uasset.
-[2018.04.09-13.45.14:752][880]LoadErrors: Error: /Game/Enemies/Drone_2/Air_Drone_fbx : Can't find file for asset. /Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton
-[2018.04.09-13.45.14:752][880]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
-[2018.04.09-13.45.14:752][880]LogLinker: Warning: Can't find file '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton'
-[2018.04.09-13.45.14:753][880]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
-[2018.04.09-13.45.14:753][880]LogLinker: Warning: Can't find file for asset '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton' while loading ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/Drone_2/Air_Drone_fbx.uasset.
-[2018.04.09-13.45.14:753][880]LoadErrors: Error: /Game/Enemies/Drone_2/Air_Drone_fbx : Can't find file for asset. /Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton
-[2018.04.09-13.45.14:776][880]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
-[2018.04.09-13.45.14:776][880]LogLinker: Warning: Can't find file '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton'
-[2018.04.09-13.45.14:776][880]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
-[2018.04.09-13.45.14:776][880]LogLinker: Warning: Can't find file for asset '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton' while loading ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/Drone_2/Air_Drone_fbx.uasset.
-[2018.04.09-13.45.14:776][880]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
-[2018.04.09-13.45.14:777][880]LogLinker: Warning: Can't find file '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton'
-[2018.04.09-13.45.14:777][880]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
-[2018.04.09-13.45.14:777][880]LogLinker: Warning: Can't find file for asset '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton' while loading ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/Drone_2/Air_Drone_fbx.uasset.
-[2018.04.09-13.45.14:830][880]LogSlate: Took 0.000274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.04.09-13.45.15:469][880]LogLinker: Warning: Can't find file '/Game/Levels/Level2_BuiltData'
-[2018.04.09-13.45.15:469][880]LogLinker: Warning: Can't find file for asset '/Game/Levels/Level2_BuiltData' while loading ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Levels/Level2.umap.
-[2018.04.09-13.45.15:469][880]LoadErrors: Error: /Game/Levels/Level2 : Can't find file for asset. /Game/Levels/Level2_BuiltData
-[2018.04.09-13.45.15:546][880]LogLinker: Warning: Can't find file '/Game/Levels/Level2_BuiltData'
-[2018.04.09-13.45.15:546][880]LogLinker: Warning: Can't find file for asset '/Game/Levels/Level2_BuiltData' while loading ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Levels/Level2.umap.
-[2018.04.09-13.45.15:559][880]LogLinker: Warning: Can't find file '/Game/Levels/Level2_BuiltData'
-[2018.04.09-13.45.15:559][880]LogLinker: Warning: Can't find file for asset '/Game/Levels/Level2_BuiltData' while loading NULL.
-[2018.04.09-13.45.15:559][880]LogLinker: Warning: Can't find file '/Game/Levels/Level2_BuiltData'
-[2018.04.09-13.45.15:559][880]LogLinker: Warning: Can't find file for asset '/Game/Levels/Level2_BuiltData' while loading NULL.
-[2018.04.09-13.45.15:647][880]LogLinker: Warning: Can't find file '/Game/Levels/Level2_BuiltData'
-[2018.04.09-13.45.15:648][880]LoadErrors: Failed to load /Game/Levels/Level2_BuiltData.Level2_BuiltData Referenced by PersistentLevel
-[2018.04.09-13.45.15:648][880]LogLinker: Warning: Can't find file for asset '/Game/Levels/Level2_BuiltData' while loading NULL.
-[2018.04.09-13.45.15:881][880]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
-[2018.04.09-13.45.15:881][880]LogLinker: Warning: Can't find file '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton'
-[2018.04.09-13.45.15:881][880]LoadErrors: Failed to load /Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton.Air_Drone_fbx_propller 1_Skeleton Referenced by Air_Drone_fbx_propller 1
-[2018.04.09-13.45.15:881][880]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
-[2018.04.09-13.45.15:881][880]LogLinker: Warning: Can't find file for asset '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton' while loading NULL.
-[2018.04.09-13.45.15:882][880]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
-[2018.04.09-13.45.15:882][880]LogLinker: Warning: Can't find file '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton'
-[2018.04.09-13.45.15:882][880]LoadErrors: Failed to load /Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton.Air_Drone_fbx_Propllier 2_Skeleton Referenced by Air_Drone_fbx_Propllier 2
-[2018.04.09-13.45.15:882][880]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
-[2018.04.09-13.45.15:882][880]LogLinker: Warning: Can't find file for asset '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton' while loading NULL.
-[2018.04.09-13.45.16:799][880]LogAIModule: Creating AISystem for world Level2
-[2018.04.09-13.45.17:108][880]Cmd: MAP LOAD FILE="../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Levels/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.09-13.45.17:108][880]LightingResults: New page: Lighting Build
-[2018.04.09-13.45.17:109][880]LoadErrors: New page: Loading map: Level2.umap
-[2018.04.09-13.45.17:109][880]MapCheck: New page: Map Check
-[2018.04.09-13.45.17:109][880]LightingResults: New page: Lighting Build
-[2018.04.09-13.45.17:320][880]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.09-13.45.17:371][880]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.09-13.45.17:415][880]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 44.269ms to complete.
-[2018.04.09-13.45.17:415][880]LogFileHelpers: Loading map 'Level2' took 0.308
-[2018.04.09-13.45.18:842][942]LogAIModule: Creating AISystem for world Main_Menu_Level
-[2018.04.09-13.45.18:854][942]Cmd: MAP LOAD FILE="../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Levels/Main_Menu_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.09-13.45.18:854][942]LightingResults: New page: Lighting Build
-[2018.04.09-13.45.18:855][942]LoadErrors: New page: Loading map: Main_Menu_Level.umap
-[2018.04.09-13.45.18:860][942]MapCheck: New page: Map Check
-[2018.04.09-13.45.18:860][942]LightingResults: New page: Lighting Build
-[2018.04.09-13.45.18:875][942]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.09-13.45.18:922][942]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.09-13.45.18:965][942]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 42.586ms to complete.
-[2018.04.09-13.45.18:965][942]LogFileHelpers: Loading map 'Main_Menu_Level' took 0.111
-[2018.04.09-13.45.20:600][ 39]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
-[2018.04.09-13.45.21:545][ 39]LogSlate: Took 0.009745 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.04.09-13.45.31:850][945]LogLinker: Warning: Can't find file '/Game/Levels/Level2_BuiltData'
-[2018.04.09-13.45.31:850][945]LogLinker: Warning: Can't find file for asset '/Game/Levels/Level2_BuiltData' while loading ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Levels/Level2.umap.
-[2018.04.09-13.45.31:850][945]LoadErrors: Error: /Game/Levels/Level2 : Can't find file for asset. /Game/Levels/Level2_BuiltData
-[2018.04.09-13.45.31:854][945]LogLinker: Warning: Can't find file '/Game/Levels/Level2_BuiltData'
-[2018.04.09-13.45.31:854][945]LogLinker: Warning: Can't find file for asset '/Game/Levels/Level2_BuiltData' while loading ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Levels/Level2.umap.
-[2018.04.09-13.45.31:859][945]LogLinker: Warning: Can't find file '/Game/Levels/Level2_BuiltData'
-[2018.04.09-13.45.31:859][945]LogLinker: Warning: Can't find file for asset '/Game/Levels/Level2_BuiltData' while loading NULL.
-[2018.04.09-13.45.31:859][945]LogLinker: Warning: Can't find file '/Game/Levels/Level2_BuiltData'
-[2018.04.09-13.45.31:859][945]LogLinker: Warning: Can't find file for asset '/Game/Levels/Level2_BuiltData' while loading NULL.
-[2018.04.09-13.45.31:919][945]LogLinker: Warning: Can't find file '/Game/Levels/Level2_BuiltData'
-[2018.04.09-13.45.31:919][945]LoadErrors: Failed to load /Game/Levels/Level2_BuiltData.Level2_BuiltData Referenced by PersistentLevel
-[2018.04.09-13.45.31:919][945]LogLinker: Warning: Can't find file for asset '/Game/Levels/Level2_BuiltData' while loading NULL.
-[2018.04.09-13.45.31:962][945]LogAIModule: Creating AISystem for world Level2
-[2018.04.09-13.45.32:156][945]Cmd: MAP LOAD FILE="../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Levels/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.04.09-13.45.32:157][945]LightingResults: New page: Lighting Build
-[2018.04.09-13.45.32:157][945]LoadErrors: New page: Loading map: Level2.umap
-[2018.04.09-13.45.32:158][945]MapCheck: New page: Map Check
-[2018.04.09-13.45.32:158][945]LightingResults: New page: Lighting Build
-[2018.04.09-13.45.32:373][945]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.04.09-13.45.32:428][945]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.04.09-13.45.32:475][945]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 46.743ms to complete.
-[2018.04.09-13.45.32:475][945]LogFileHelpers: Loading map 'Level2' took 0.320
-[2018.04.09-13.45.39:325][655]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.09-13.45.39:470][655]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
-[2018.04.09-13.45.39:470][655]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.09-13.45.39:471][655]PIE: New page: PIE session: Level2 (Apr 9, 2018, 5:45:39 PM)
-[2018.04.09-13.45.39:471][655]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
-[2018.04.09-13.45.39:511][655]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039227s)
-[2018.04.09-13.45.39:511][655]LogAIModule: Creating AISystem for world Level2
-[2018.04.09-13.45.39:511][655]LogPlayLevel: PIE: World Init took: (0.000689s)
-[2018.04.09-13.45.39:512][655]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.040530s)
-[2018.04.09-13.45.39:540][655]LogInit: XAudio2 using 'Altavoces (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.09-13.45.39:548][655]LogInit: FAudioDevice initialized.
-[2018.04.09-13.45.39:586][655]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2018.04.09-13.45.39:604][655]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2018.04.09-15.45.39
-[2018.04.09-13.45.39:605][655]LogWorld: Bringing up level for play took: 0.018895
-[2018.04.09-13.45.39:676][655]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
-[2018.04.09-13.45.39:678][655]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level2 -0.328
-[2018.04.09-13.45.39:678][655]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
-[2018.04.09-13.46.09:742][247]LogCharacterMovement: 2DSideScrollerCharacter_254 is stuck and failed to move! Velocity: X=600.00 Y=0.00 Z=0.00 Location: X=16821.12 Y=-13.40 Z=262.77 Normal: X=-0.62 Y=0.00 Z=0.79 PenetrationDepth:2.925 Actor:Ledge_56 Component:RenderComponent BoneName:None (0 other events since notify)
-[2018.04.09-13.46.11:852][499]LogNet: Browse: /Game/Levels/Game_Over_Level2_Level
-[2018.04.09-13.46.11:859][499]LogLoad: LoadMap: /Game/Levels/Game_Over_Level2_Level
-[2018.04.09-13.46.11:881][499]Cmd: MEM
-[2018.04.09-13.46.11:986][499]LogMemory: Platform Memory Stats for Windows
-[2018.04.09-13.46.11:986][499]LogMemory: Process Physical Memory: 1336.69 MB used, 1350.72 MB peak
-[2018.04.09-13.46.11:986][499]LogMemory: Process Virtual Memory: 1796.88 MB used, 1916.63 MB peak
-[2018.04.09-13.46.11:986][499]LogMemory: Physical Memory: 5623.86 MB used,  2528.84 MB free, 8152.70 MB total
-[2018.04.09-13.46.11:986][499]LogMemory: Virtual Memory: 2488.08 MB used,  2528.84 MB free, 8388608.00 MB total
-[2018.04.09-13.46.11:986][499]LogMemory: 
-[2018.04.09-13.46.11:986][499]Allocator Stats for TBB: (not implemented)
-[2018.04.09-13.46.13:008][499]LogAIModule: Creating AISystem for world Game_Over_Level2_Level
-[2018.04.09-13.46.13:008][499]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2018.04.09-13.46.13:010][499]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Over_Level2_Level.Game_Over_Level2_Level up for play (max tick rate 0) at 2018.04.09-15.46.13
-[2018.04.09-13.46.13:010][499]LogWorld: Bringing up level for play took: 0.001149
-[2018.04.09-13.46.13:011][499]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.04.09-13.46.13:028][499]LogLoad: Took 1.169318 seconds to LoadMap(/Game/Levels/Game_Over_Level2_Level)
-[2018.04.09-13.46.13:353][536]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
-[2018.04.09-13.46.13:386][536]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
-[2018.04.09-13.46.25:485][944]LogEditorViewport: Clicking on Actor (LMB): ObjectFloorPast_C (ObjectFloorPresent47)
-[2018.04.09-13.46.26:749][ 78]LogEditorViewport: Clicking on Actor (LMB): ObjectFloorPast_C (ObjectFloorPresent46)
-[2018.04.09-13.46.27:369][145]LogEditorViewport: Clicking on Actor (LMB): ObjectFloorPast_C (ObjectFloorPresent47)
-[2018.04.09-13.47.20:492][ 69]LogEditorViewport: Clicking on Actor (LMB): ObjectFloorPast_C (ObjectFloorPresent85)
-[2018.04.09-13.47.20:980][110]LogEditorViewport: Clicking on Actor (LMB): ObjectFloorPast_C (ObjectFloorPresent49)
-[2018.04.09-13.47.21:903][211]LogEditorViewport: Clicking on Actor (LMB): ObjectFloorPast_C (ObjectFloorPresent48)
-[2018.04.09-13.47.22:526][278]LogEditorViewport: Clicking on Actor (LMB): ObjectFloorPast_C (ObjectFloorPresent50)
-[2018.04.09-13.47.23:148][345]LogEditorViewport: Clicking on Actor (LMB): ObjectFloorPast_C (ObjectFloorPresent51)
-[2018.04.09-13.47.24:136][434]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.09-13.47.24:159][434]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
-[2018.04.09-13.47.24:159][434]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.09-13.47.24:160][434]PIE: New page: PIE session: Level2 (Apr 9, 2018, 5:47:24 PM)
-[2018.04.09-13.47.24:162][434]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
-[2018.04.09-13.47.24:202][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040283s)
-[2018.04.09-13.47.24:203][434]LogAIModule: Creating AISystem for world Level2
-[2018.04.09-13.47.24:203][434]LogPlayLevel: PIE: World Init took: (0.000682s)
-[2018.04.09-13.47.24:204][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.041945s)
-[2018.04.09-13.47.24:227][434]LogInit: XAudio2 using 'Altavoces (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.09-13.47.24:235][434]LogInit: FAudioDevice initialized.
-[2018.04.09-13.47.24:263][434]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2018.04.09-13.47.24:281][434]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2018.04.09-15.47.24
-[2018.04.09-13.47.24:283][434]LogWorld: Bringing up level for play took: 0.019051
-[2018.04.09-13.47.24:284][434]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.277
-[2018.04.09-13.47.24:284][434]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
-[2018.04.09-13.47.48:853][374]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
-[2018.04.09-13.47.48:902][374]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
-[2018.04.09-13.47.52:633][776]LogEditorViewport: Clicking on Actor (LMB): ObjectFloorPast_C (ObjectFloorPresent54)
-[2018.04.09-13.47.53:078][821]LogEditorViewport: Clicking on Actor (LMB): ObjectFloorPast_C (ObjectFloorPresent55)
-[2018.04.09-13.47.53:712][889]LogEditorViewport: Clicking on Actor (LMB): ObjectFloorPast_C (ObjectFloorPresent54)
-[2018.04.09-13.47.54:669][994]LogEditorViewport: Clicking on Actor (LMB): ObjectFloorPast_C (ObjectFloorPresent53)
-[2018.04.09-13.47.55:349][ 67]LogEditorViewport: Clicking on Actor (LMB): ObjectFloorPast_C (ObjectFloorPresent52)
-[2018.04.09-13.47.57:031][215]LogEditorViewport: Clicking on Actor (LMB): ObjectFloorPast_C (ObjectFloorPresent51)
-[2018.04.09-13.47.57:639][277]LogEditorViewport: Clicking on Actor (LMB): ObjectFloorPast_C (ObjectFloorPresent50)
-[2018.04.09-13.47.58:719][396]LogEditorViewport: Clicking on Actor (LMB): ObjectFloorPast_C (ObjectFloorPresent49)
-[2018.04.09-13.48.00:013][538]LogEditorViewport: Clicking on Actor (LMB): ObjectFloorPast_C (ObjectFloorPresent50)
-[2018.04.09-13.48.02:785][819]LogEditorViewport: Clicking on Actor (LMB): ObjectFloorPast_C (ObjectFloorPresent49)
-[2018.04.09-13.48.04:204][967]LogEditorViewport: Clicking on Actor (LMB): ObjectFloorPast_C (ObjectFloorPresent48)
-[2018.04.09-13.48.05:029][ 56]LogEditorViewport: Clicking on Actor (LMB): ObjectFloorPast_C (ObjectFloorPresent49)
-[2018.04.09-13.48.05:847][144]LogEditorViewport: Clicking on Actor (LMB): ObjectFloorPast_C (ObjectFloorPresent48)
-[2018.04.09-13.48.06:149][174]LogEditorViewport: Clicking on Actor (LMB): ObjectFloorPast_C (ObjectFloorPresent87)
-[2018.04.09-13.48.11:943][438]LogSavePackage: Save=1000.02ms
-[2018.04.09-13.48.11:943][438]LogSavePackage: Moving '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/Level29266A4A5467F2C920CFF7680C280EFAE.tmp' to '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Levels/Level2.umap'
-[2018.04.09-13.48.11:950][438]LogSavePackage: Display: Finished SavePackage ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Levels/Level2.umap
-[2018.04.09-13.48.11:990][438]LogFileHelpers: Saving map 'Level2' took 1.121
-[2018.04.09-13.50.44:816][487]Cmd: DELETE
-[2018.04.09-13.50.44:816][487]Cmd: ACTOR DELETE
-[2018.04.09-13.50.44:852][487]LogEditorActor: Deleted Actor: Gold_C
-[2018.04.09-13.50.44:867][487]LogEditorActor: Deleted 1 Actors (0.021 secs)
-[2018.04.09-13.50.45:860][605]LogEditorViewport: Clicking on Actor (LMB): Gold_C (Gold)
-[2018.04.09-13.50.46:121][627]LogSlate: Took 0.015370 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.04.09-13.52.02:269][  4]LogEditorViewport: Clicking on Actor (LMB): Gold_C (Gold4)
-[2018.04.09-13.52.12:954][196]Cmd: DELETE
-[2018.04.09-13.52.12:954][196]Cmd: ACTOR DELETE
-[2018.04.09-13.52.12:955][196]LogEditorActor: Deleted Actor: Gold_C
-[2018.04.09-13.52.12:972][196]LogEditorActor: Deleted 1 Actors (0.018 secs)
-[2018.04.09-13.52.15:445][491]LogEditorViewport: Clicking on Actor (LMB): Gold_C (Gold4)
-[2018.04.09-13.52.24:304][435]LogTemp: Repeating last play command: Selected Viewport
-[2018.04.09-13.52.24:328][435]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
-[2018.04.09-13.52.24:328][435]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.04.09-13.52.24:329][435]PIE: New page: PIE session: Level2 (Apr 9, 2018, 5:52:24 PM)
-[2018.04.09-13.52.24:329][435]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
-[2018.04.09-13.52.24:369][435]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040236s)
-[2018.04.09-13.52.24:370][435]LogAIModule: Creating AISystem for world Level2
-[2018.04.09-13.52.24:370][435]LogPlayLevel: PIE: World Init took: (0.000880s)
-[2018.04.09-13.52.24:371][435]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.041471s)
-[2018.04.09-13.52.24:395][435]LogInit: XAudio2 using 'Altavoces (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.04.09-13.52.24:402][435]LogInit: FAudioDevice initialized.
-[2018.04.09-13.52.24:434][435]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2018.04.09-13.52.24:453][435]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2018.04.09-15.52.24
-[2018.04.09-13.52.24:455][435]LogWorld: Bringing up level for play took: 0.019476
-[2018.04.09-13.52.24:456][435]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.447
-[2018.04.09-13.52.24:457][435]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
-[2018.04.09-13.52.26:638][692]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
-[2018.04.09-13.52.26:681][692]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level2.Level2:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level2.Level2:PersistentLevel.Level2' with GeneratedClass '/Game/Levels/Level2.Level2_C' with ClassGeneratedBy '/Game/Levels/Level2.Level2:PersistentLevel.Level2'
-[2018.04.09-13.52.31:217][182]LogEditorViewport: Clicking on Actor (LMB): Gold_C (Gold8)
-[2018.04.09-13.53.49:813][846]LogEditorViewport: Clicking on Actor (LMB): Gold_C (Gold15)
-[2018.04.09-13.53.53:681][238]LogEditorViewport: Clicking on Actor (LMB): Landscape_Present_C (Landscape_Present12)
-[2018.04.09-13.53.55:631][425]LogEditorViewport: Clicking on Actor (LMB): Gold_C (Gold17)
-[2018.04.09-13.54.14:633][530]LogEditorViewport: Clicking on Actor (LMB): Gold_C (Gold18)
-[2018.04.09-13.54.19:848][144]LogEditorViewport: Clicking on Actor (LMB): Gold_C (Gold19)
-[2018.04.09-13.54.28:651][115]LogEditorViewport: Clicking on Actor (LMB): Gold_C (Gold20)
-[2018.04.09-13.54.31:608][413]LogEditorViewport: Clicking on Actor (LMB): Gold_C (Gold21)
-[2018.04.09-13.54.41:117][452]LogEditorViewport: Clicking on Actor (CTRL LMB): Gold_C (Gold24)
-[2018.04.09-13.54.41:723][520]LogEditorViewport: Clicking on Actor (CTRL LMB): Gold_C (Gold23)
-[2018.04.09-13.54.48:545][288]LogEditorViewport: Clicking on Actor (LMB): Landscape_Past_C (Landscape_Past7)
-[2018.04.09-13.54.49:208][341]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape_Present_C (Landscape_Present14)
-[2018.04.09-13.54.51:369][594]LogEditorViewport: Clicking on Actor (LMB): Landscape_Past_C (Landscape_Past7)
-[2018.04.09-13.54.55:599][ 71]LogEditorViewport: Clicking on Actor (LMB): Landscape_Present_C (Landscape_Present14)
-[2018.04.09-13.54.57:898][329]Cmd: TRANSACTION UNDO
-[2018.04.09-13.54.57:898][329]LogEditorTransaction: Undo Move Actors
-[2018.04.09-13.54.58:560][370]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape_Present_C (Landscape_Present13)
-[2018.04.09-13.54.59:098][401]LogEditorViewport: Clicking on Actor (CTRL LMB): Landscape_Present_C (Landscape_Present12)
-[2018.04.09-13.55.07:422][226]LogEditorViewport: Clicking Background
-[2018.04.09-13.55.13:205][674]LogSavePackage: Save=1078.52ms
-[2018.04.09-13.55.13:205][674]LogSavePackage: Moving '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/Level2900ED57F4529D81A920DDE9ADEBFDC9A.tmp' to '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Levels/Level2.umap'
-[2018.04.09-13.55.13:211][674]LogSavePackage: Display: Finished SavePackage ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Levels/Level2.umap
-[2018.04.09-13.55.13:254][674]LogFileHelpers: Saving map 'Level2' took 1.202
+[2018.04.10-09.38.18:203][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.10-09.38.18:203][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.04.10-09.38.18:245][  0]LogInit: Computer: ADRIAN-PC
+[2018.04.10-09.38.18:245][  0]LogInit: User: Adrian
+[2018.04.10-09.38.18:245][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.04.10-09.38.18:245][  0]LogInit: High frequency timer resolution =3.312832 MHz
+[2018.04.10-09.38.18:245][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2018.04.10-09.38.18:245][  0]LogMemory: Platform Memory Stats for Windows
+[2018.04.10-09.38.18:245][  0]LogMemory: Process Physical Memory: 281.15 MB used, 281.15 MB peak
+[2018.04.10-09.38.18:245][  0]LogMemory: Process Virtual Memory: 289.46 MB used, 289.46 MB peak
+[2018.04.10-09.38.18:245][  0]LogMemory: Physical Memory: 3101.07 MB used,  5051.63 MB free, 8152.70 MB total
+[2018.04.10-09.38.18:245][  0]LogMemory: Virtual Memory: 668.42 MB used,  5051.63 MB free, 8388608.00 MB total
+[2018.04.10-09.38.18:949][  0]LogInit: Overriding language with editor language configuration option (en).
+[2018.04.10-09.38.18:949][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2018.04.10-09.38.20:913][  0]LogD3D11RHI: D3D11 adapters:
+[2018.04.10-09.38.20:944][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2018.04.10-09.38.20:944][  0]LogD3D11RHI:       3998/0/3820 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.04.10-09.38.20:944][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.04.10-09.38.20:981][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.04.10-09.38.20:981][  0]LogD3D11RHI:     GPU DeviceId: 0x1c82 (for the marketing name, search the web for "GPU Device Id")
+[2018.04.10-09.38.20:981][  0]LogWindows: EnumDisplayDevices:
+[2018.04.10-09.38.20:981][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050 Ti' (P:1 D:1)
+[2018.04.10-09.38.20:981][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.04.10-09.38.20:982][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.04.10-09.38.20:982][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.04.10-09.38.20:982][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2018.04.10-09.38.20:982][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2018.04.10-09.38.20:982][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2018.04.10-09.38.20:982][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.04.10-09.38.20:982][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2018.04.10-09.38.20:983][  0]LogD3D11RHI:   Driver Version: 391.24 (internal:23.21.13.9124, unified:391.24)
+[2018.04.10-09.38.20:983][  0]LogD3D11RHI:      Driver Date: 3-15-2018
+[2018.04.10-09.38.20:983][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.04.10-09.38.21:001][  0]LogD3D11RHI: Async texture creation enabled
+[2018.04.10-09.38.21:184][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.04.10-09.38.21:251][  0]LogShaderCompilers: Guid format shader working directory is -46 characters bigger than the processId version (../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Intermediate/Shaders/WorkingDirectory/6452/).
+[2018.04.10-09.38.21:251][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Adrian/AppData/Local/Temp/UnrealShaderWorkingDir/BA848F9048AD8ED368E1B59AB3D14747/'.
+[2018.04.10-09.38.21:253][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.04.10-09.38.23:601][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.04.10-09.38.23:658][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.04.10-09.38.23:715][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.04.10-09.38.23:771][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.04.10-09.38.23:834][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.04.10-09.38.23:891][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.04.10-09.38.23:947][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.04.10-09.38.24:003][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.04.10-09.38.24:052][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.04.10-09.38.24:118][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.04.10-09.38.24:174][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.04.10-09.38.24:231][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.04.10-09.38.24:287][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.04.10-09.38.24:342][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.04.10-09.38.24:397][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.04.10-09.38.24:508][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.04.10-09.38.24:508][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.04.10-09.38.24:552][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.04.10-09.38.24:690][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.04.10-09.38.24:718][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.04.10-09.38.24:773][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.04.10-09.38.24:828][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.04.10-09.38.24:884][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.04.10-09.38.24:951][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.04.10-09.38.24:951][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.04.10-09.38.25:851][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.04.10-09.38.26:315][  0]LogDerivedDataCache: Loaded boot cache 0.46s 93MB C:/Users/Adrian/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.04.10-09.38.26:315][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Adrian/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.04.10-09.38.26:315][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.04.10-09.38.26:315][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.04.10-09.38.26:315][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.04.10-09.38.26:315][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.04.10-09.38.26:398][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.04.10-09.38.26:413][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Adrian/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.04.10-09.38.26:446][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.04.10-09.38.26:475][  0]LogSlate: Using Freetype 2.6.0
+[2018.04.10-09.38.26:514][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.10-09.38.26:523][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.04.10-09.38.30:281][  0]LogAssetRegistry: FAssetRegistry took 0.0277 seconds to start up
+[2018.04.10-09.38.31:673][  0]LogInit: Selected Device Profile: [Windows]
+[2018.04.10-09.38.31:853][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.04.10-09.38.34:096][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.04.10-09.38.34:152][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.04.10-09.38.34:152][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.04.10-09.38.34:152][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.04.10-09.38.34:152][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.04.10-09.38.34:152][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.04.10-09.38.35:801][  0]LogNetVersion: Game , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2957514414)
+[2018.04.10-09.38.36:405][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.043244 seconds
+[2018.04.10-09.38.36:413][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.04.10-09.38.36:413][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2018.04.10-09.38.36:413][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.04.10-09.38.36:476][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.04.10-09.38.41:913][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.04.10-09.38.41:960][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.04.10-09.38.43:154][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.04.10-09.38.43:727][  0]SourceControl: Source control is disabled
+[2018.04.10-09.38.43:727][  0]SourceControl: Source control is disabled
+[2018.04.10-09.38.43:824][  0]SourceControl: Source control is disabled
+[2018.04.10-09.38.43:902][  0]SourceControl: Source control is disabled
+[2018.04.10-09.38.44:771][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.04.10-09.38.45:059][  0]LogOcInput: OculusInput pre-init called
+[2018.04.10-09.38.45:588][  0]LogEngine: Initializing Engine...
+[2018.04.10-09.38.45:613][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.04.10-09.38.46:050][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.04.10-09.38.46:050][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.04.10-09.38.46:396][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.04.10-09.38.46:474][  0]LogInit: XAudio2 using 'Altavoces (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.10-09.38.46:491][  0]LogInit: FAudioDevice initialized.
+[2018.04.10-09.38.46:600][  0]LogDerivedDataCache: Saved boot cache 0.11s 93MB C:/Users/Adrian/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.04.10-09.38.46:620][  0]LogInit: Texture streaming: Enabled
+[2018.04.10-09.38.46:772][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.04.10-09.38.47:274][  0]LogInit: Transaction tracking system initialized
+[2018.04.10-09.38.47:771][  0]BlueprintLog: New page: Editor Load
+[2018.04.10-09.38.49:383][  0]LocalizationService: Localization service is disabled
+[2018.04.10-09.38.50:480][  0]LogConsoleResponse: Display: 
+[2018.04.10-09.38.52:086][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/' took 0.02s
+[2018.04.10-09.38.52:087][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.04.10-09.38.52:087][  0]LogCook: Display: Mobile HDR setting 1
+[2018.04.10-09.38.52:130][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.04.10-09.38.54:916][  0]SourceControl: Source control is disabled
+[2018.04.10-09.38.54:971][  0]Cmd: MAP LOAD FILE="../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Levels/Main_Menu_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.04.10-09.38.55:022][  0]LightingResults: New page: Lighting Build
+[2018.04.10-09.38.55:171][  0]MapCheck: New page: Map Check
+[2018.04.10-09.38.55:171][  0]LightingResults: New page: Lighting Build
+[2018.04.10-09.38.56:563][  0]LogAIModule: Creating AISystem for world Main_Menu_Level
+[2018.04.10-09.38.56:648][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.04.10-09.38.56:706][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.04.10-09.38.56:746][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 40.391ms to complete.
+[2018.04.10-09.38.56:747][  0]LogFileHelpers: Loading map 'Main_Menu_Level' took 1.806
+[2018.04.10-09.38.57:667][  0]LogCollectionManager: Loaded 0 collections in 0.002187 seconds
+[2018.04.10-09.38.57:826][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/Collections/' took 0.01s
+[2018.04.10-09.38.57:826][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Developers/Adrian/Collections/' took 0.01s
+[2018.04.10-09.38.57:827][  0]LogFileCache: Scanning file cache for directory 'E:/Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Collections/' took 0.01s
+[2018.04.10-09.38.57:827][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.04.10-09.38.57:848][  0]LogContentBrowser: Native class hierarchy populated in 0.0197 seconds. Added 2386 classes and 500 folders.
+[2018.04.10-09.38.57:966][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2018.04.10-09.38.58:559][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2018.04.10-09.38.58:688][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.04.10-09.38.59:041][  0]LogSlate: Took 0.010710 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.10-09.38.59:048][  0]LogSlate: Took 0.001066 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.04.10-09.38.59:080][  0]LogSlate: Took 0.009971 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.04.10-09.38.59:533][  0]LogRenderer: Reallocating scene render targets to support 1104x576 Format 10 NumSamples 1 (Frame:1).
+[2018.04.10-09.38.59:738][  0]LogSlate: Took 0.007698 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.10-09.38.59:934][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.04.10-09.38.59:934][  0]LogLoad: (Engine Initialization) Total time: 52.17 seconds
+[2018.04.10-09.38.59:934][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.04.10-09.38.59:935][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.04.10-09.39.00:317][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.04.10-09.39.01:295][  3]LogSlate: Took 0.000315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.10-09.39.01:620][  4]LogAssetRegistry: Asset discovery search completed in 31.3589 seconds
+[2018.04.10-09.39.01:623][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.04.10-09.39.01:624][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000092 seconds (updated 0 objects)
+[2018.04.10-09.45.30:120][173]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.04.10-09.45.30:799][173]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
+[2018.04.10-09.45.31:752][173]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.10-09.45.32:236][173]LogSlate: Took 0.012892 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.10-09.45.32:743][174]LogSlate: Took 0.001090 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.10-09.45.36:246][374]LogRenderer: Reallocating scene render targets to support 1144x696 Format 10 NumSamples 1 (Frame:1).
+[2018.04.10-09.45.56:918][918]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.10-09.45.57:105][918]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Main_Menu_Level.Main_Menu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main_Menu_Level.Main_Menu_Level:PersistentLevel.Main_Menu_Level' with GeneratedClass '/Game/Levels/Main_Menu_Level.Main_Menu_Level_C' with ClassGeneratedBy '/Game/Levels/Main_Menu_Level.Main_Menu_Level:PersistentLevel.Main_Menu_Level'
+[2018.04.10-09.45.57:105][918]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.10-09.45.57:116][918]LogPlayLevel: [PlayLevel] Compiling ObjectFloorPresent1 before play...
+[2018.04.10-09.45.57:438][918]LogPlayLevel: PlayLevel: Blueprint regeneration took 333 ms (1 blueprints)
+[2018.04.10-09.45.57:458][918]PIE: New page: PIE session: Main_Menu_Level (Apr 10, 2018, 1:45:57 PM)
+[2018.04.10-09.45.57:462][918]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main_Menu_Level
+[2018.04.10-09.45.57:474][918]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011399s)
+[2018.04.10-09.45.57:474][918]LogAIModule: Creating AISystem for world Main_Menu_Level
+[2018.04.10-09.45.57:474][918]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2018.04.10-09.45.57:475][918]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main_Menu_Level.Main_Menu_Level to /Game/Levels/UEDPIE_0_Main_Menu_Level.Main_Menu_Level (0.012565s)
+[2018.04.10-09.45.57:499][918]LogInit: XAudio2 using 'Altavoces (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.10-09.45.57:508][918]LogInit: FAudioDevice initialized.
+[2018.04.10-09.45.57:581][918]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.04.10-09.45.57:602][918]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main_Menu_Level.Main_Menu_Level up for play (max tick rate 0) at 2018.04.10-11.45.57
+[2018.04.10-09.45.57:613][918]LogWorld: Bringing up level for play took: 0.011907
+[2018.04.10-09.45.57:695][918]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2018.04.10-09.45.57:745][918]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Main_Menu_Level 0.907
+[2018.04.10-09.45.57:746][918]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Main_Menu_Level.Main_Menu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main_Menu_Level.Main_Menu_Level:PersistentLevel.Main_Menu_Level' with GeneratedClass '/Game/Levels/Main_Menu_Level.Main_Menu_Level_C' with ClassGeneratedBy '/Game/Levels/Main_Menu_Level.Main_Menu_Level:PersistentLevel.Main_Menu_Level'
+[2018.04.10-09.45.58:686][ 21]LogNet: Browse: /Game/Levels/Level1
+[2018.04.10-09.45.58:686][ 21]LogLoad: LoadMap: /Game/Levels/Level1
+[2018.04.10-09.45.58:706][ 21]Cmd: MEM
+[2018.04.10-09.45.58:742][ 21]LogMemory: Platform Memory Stats for Windows
+[2018.04.10-09.45.58:742][ 21]LogMemory: Process Physical Memory: 1298.09 MB used, 1301.59 MB peak
+[2018.04.10-09.45.58:742][ 21]LogMemory: Process Virtual Memory: 2157.53 MB used, 2161.54 MB peak
+[2018.04.10-09.45.58:742][ 21]LogMemory: Physical Memory: 4931.05 MB used,  3221.65 MB free, 8152.70 MB total
+[2018.04.10-09.45.58:742][ 21]LogMemory: Virtual Memory: 2854.16 MB used,  3221.65 MB free, 8388608.00 MB total
+[2018.04.10-09.45.58:742][ 21]LogMemory: 
+[2018.04.10-09.45.58:742][ 21]Allocator Stats for TBB: (not implemented)
+[2018.04.10-09.45.59:709][ 21]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2018.04.10-09.45.59:709][ 21]LogLinker: Warning: Can't find file '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton'
+[2018.04.10-09.45.59:709][ 21]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2018.04.10-09.45.59:710][ 21]LogLinker: Warning: Can't find file for asset '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton' while loading ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/Drone_2/Air_Drone_fbx.uasset.
+[2018.04.10-09.45.59:710][ 21]LoadErrors: Error: /Game/Enemies/Drone_2/Air_Drone_fbx : Can't find file for asset. /Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton
+[2018.04.10-09.45.59:710][ 21]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2018.04.10-09.45.59:710][ 21]LogLinker: Warning: Can't find file '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton'
+[2018.04.10-09.45.59:710][ 21]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2018.04.10-09.45.59:710][ 21]LogLinker: Warning: Can't find file for asset '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton' while loading ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/Drone_2/Air_Drone_fbx.uasset.
+[2018.04.10-09.45.59:710][ 21]LoadErrors: Error: /Game/Enemies/Drone_2/Air_Drone_fbx : Can't find file for asset. /Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton
+[2018.04.10-09.45.59:740][ 21]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2018.04.10-09.45.59:740][ 21]LogLinker: Warning: Can't find file '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton'
+[2018.04.10-09.45.59:740][ 21]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2018.04.10-09.45.59:740][ 21]LogLinker: Warning: Can't find file for asset '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton' while loading ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/Drone_2/Air_Drone_fbx.uasset.
+[2018.04.10-09.45.59:740][ 21]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2018.04.10-09.45.59:741][ 21]LogLinker: Warning: Can't find file '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton'
+[2018.04.10-09.45.59:741][ 21]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2018.04.10-09.45.59:741][ 21]LogLinker: Warning: Can't find file for asset '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton' while loading ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/Drone_2/Air_Drone_fbx.uasset.
+[2018.04.10-09.46.00:661][ 21]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2018.04.10-09.46.00:661][ 21]LogLinker: Warning: Can't find file '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton'
+[2018.04.10-09.46.00:661][ 21]LoadErrors: Failed to load /Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton.Air_Drone_fbx_propller 1_Skeleton Referenced by Air_Drone_fbx_propller 1
+[2018.04.10-09.46.00:661][ 21]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2018.04.10-09.46.00:661][ 21]LogLinker: Warning: Can't find file for asset '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton' while loading NULL.
+[2018.04.10-09.46.00:662][ 21]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2018.04.10-09.46.00:662][ 21]LogLinker: Warning: Can't find file '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton'
+[2018.04.10-09.46.00:662][ 21]LoadErrors: Failed to load /Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton.Air_Drone_fbx_Propllier 2_Skeleton Referenced by Air_Drone_fbx_Propllier 2
+[2018.04.10-09.46.00:662][ 21]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2018.04.10-09.46.00:662][ 21]LogLinker: Warning: Can't find file for asset '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton' while loading NULL.
+[2018.04.10-09.46.02:726][ 21]LogAIModule: Creating AISystem for world Level1
+[2018.04.10-09.46.02:726][ 21]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.04.10-09.46.02:871][ 21]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.04.10-11.46.02
+[2018.04.10-09.46.02:892][ 21]LogWorld: Bringing up level for play took: 0.164613
+[2018.04.10-09.46.02:895][ 21]LogLoad: Took 4.207806 seconds to LoadMap(/Game/Levels/Level1)
+[2018.04.10-09.46.24:995][644]LogNet: Browse: /Game/Levels/Level_Completed_Level
+[2018.04.10-09.46.24:996][644]LogLoad: LoadMap: /Game/Levels/Level_Completed_Level
+[2018.04.10-09.46.25:022][644]Cmd: MEM
+[2018.04.10-09.46.25:038][644]LogMemory: Platform Memory Stats for Windows
+[2018.04.10-09.46.25:038][644]LogMemory: Process Physical Memory: 1674.61 MB used, 1744.60 MB peak
+[2018.04.10-09.46.25:038][644]LogMemory: Process Virtual Memory: 3104.43 MB used, 3182.57 MB peak
+[2018.04.10-09.46.25:038][644]LogMemory: Physical Memory: 5258.24 MB used,  2894.46 MB free, 8152.70 MB total
+[2018.04.10-09.46.25:038][644]LogMemory: Virtual Memory: 3812.54 MB used,  2894.46 MB free, 8388608.00 MB total
+[2018.04.10-09.46.25:038][644]LogMemory: 
+[2018.04.10-09.46.25:038][644]Allocator Stats for TBB: (not implemented)
+[2018.04.10-09.46.25:110][644]LogAIModule: Creating AISystem for world Level_Completed_Level
+[2018.04.10-09.46.25:111][644]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.04.10-09.46.25:113][644]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_Completed_Level.Level_Completed_Level up for play (max tick rate 0) at 2018.04.10-11.46.25
+[2018.04.10-09.46.25:113][644]LogWorld: Bringing up level for play took: 0.001149
+[2018.04.10-09.46.25:113][644]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.10-09.46.25:115][644]LogLoad: Took 0.119713 seconds to LoadMap(/Game/Levels/Level_Completed_Level)
+[2018.04.10-09.46.25:469][684]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Main_Menu_Level.Main_Menu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main_Menu_Level.Main_Menu_Level:PersistentLevel.Main_Menu_Level' with GeneratedClass '/Game/Levels/Main_Menu_Level.Main_Menu_Level_C' with ClassGeneratedBy '/Game/Levels/Main_Menu_Level.Main_Menu_Level:PersistentLevel.Main_Menu_Level'
+[2018.04.10-09.46.25:504][684]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Main_Menu_Level.Main_Menu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main_Menu_Level.Main_Menu_Level:PersistentLevel.Main_Menu_Level' with GeneratedClass '/Game/Levels/Main_Menu_Level.Main_Menu_Level_C' with ClassGeneratedBy '/Game/Levels/Main_Menu_Level.Main_Menu_Level:PersistentLevel.Main_Menu_Level'
+[2018.04.10-09.47.28:136][431]LogSavePackage: Save=111.01ms
+[2018.04.10-09.47.28:136][431]LogSavePackage: Moving '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/ObjectFloorPresent1089F460D4133485E350F658375517D12.tmp' to '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/ObjectFloorPresent1.uasset'
+[2018.04.10-09.47.28:158][431]LogSavePackage: Display: Finished SavePackage ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/ObjectFloorPresent1.uasset
+[2018.04.10-09.49.24:052][740]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Adrian\Desktop\Long_Spike_Row.png)
+[2018.04.10-09.49.24:066][740]LogTexture: Display: Building textures: Long_Spike_Row (BGRA8, 609X127)
+[2018.04.10-09.49.26:983][ 27]LogMaterial: Missing cached shader map for material Long_Spike_Row_Mat, compiling. 
+[2018.04.10-09.49.57:131][ 71]LogEditorTransaction: Undo Modify Component(s)
+[2018.04.10-09.49.57:538][104]LogEditorTransaction: Undo Modify Component(s)
+[2018.04.10-09.49.57:839][129]LogEditorTransaction: Undo Modify Component(s)
+[2018.04.10-09.49.58:113][153]LogEditorTransaction: Undo Modify Component(s)
+[2018.04.10-09.49.58:398][178]LogEditorTransaction: Undo Modify Component(s)
+[2018.04.10-09.49.58:676][202]LogEditorTransaction: Undo Modify Component(s)
+[2018.04.10-09.50.00:307][347]LogEditorTransaction: Undo Replace component used material
+[2018.04.10-09.50.30:778][500]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Main_Menu_Level' took 0.034
+[2018.04.10-09.50.30:780][500]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemies/ObjectFloorPresent1] ([1] browsable assets)...
+[2018.04.10-09.50.30:811][500]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemies/ObjectFloorPresent1.ObjectFloorPresent1]
+[2018.04.10-09.50.30:811][500]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemies/ObjectFloorPresent1]
+[2018.04.10-09.50.30:877][500]LogSavePackage: Save=57.10ms
+[2018.04.10-09.50.30:877][500]LogSavePackage: Moving '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/ObjectFloorPresent1_Auto159173006419EF2C5A418E794C334ECD7.tmp' to '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/Autosaves/Game/Enemies/ObjectFloorPresent1_Auto1.uasset'
+[2018.04.10-09.50.30:879][500]LogSavePackage: Display: Finished SavePackage ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/Autosaves/Game/Enemies/ObjectFloorPresent1_Auto1.uasset
+[2018.04.10-09.50.30:880][500]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemies/Spike/Long_Spike_Row_Mat] ([1] browsable assets)...
+[2018.04.10-09.50.30:910][500]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Enemies/Spike/Long_Spike_Row_Mat.Long_Spike_Row_Mat]
+[2018.04.10-09.50.30:910][500]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemies/Spike/Long_Spike_Row_Mat]
+[2018.04.10-09.50.30:924][500]LogSavePackage: Save=11.93ms
+[2018.04.10-09.50.30:924][500]LogSavePackage: Moving '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/Long_Spike_Row_Mat_Auto17CE6734346637C9A4884BA913824BAB0.tmp' to '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/Autosaves/Game/Enemies/Spike/Long_Spike_Row_Mat_Auto1.uasset'
+[2018.04.10-09.50.30:926][500]LogSavePackage: Display: Finished SavePackage ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/Autosaves/Game/Enemies/Spike/Long_Spike_Row_Mat_Auto1.uasset
+[2018.04.10-09.50.30:927][500]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemies/Spike/Long_Spike_Row] ([1] browsable assets)...
+[2018.04.10-09.50.30:930][500]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Enemies/Spike/Long_Spike_Row.Long_Spike_Row]
+[2018.04.10-09.50.30:930][500]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemies/Spike/Long_Spike_Row]
+[2018.04.10-09.50.30:934][500]LogSavePackage: Save=2.87ms
+[2018.04.10-09.50.30:934][500]LogSavePackage: Moving '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/Long_Spike_Row_Auto167C57D4B4E2A5960904AF2A85DEA4FCA.tmp' to '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/Autosaves/Game/Enemies/Spike/Long_Spike_Row_Auto1.uasset'
+[2018.04.10-09.50.30:936][500]LogSavePackage: Display: Finished SavePackage ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/Autosaves/Game/Enemies/Spike/Long_Spike_Row_Auto1.uasset
+[2018.04.10-09.50.30:936][500]LogFileHelpers: Auto-saving content packages took 0.157
+[2018.04.10-10.00.14:610][819]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0008 seconds. Added 1 classes and 0 folders.
+[2018.04.10-10.00.14:622][819]LogMaterial: Missing cached shader map for material Long_Spike_Row_Mat, compiling. 
+[2018.04.10-10.00.14:753][819]LogMaterial: Missing cached shader map for material Long_Spike_Row_Mat, compiling. 
+[2018.04.10-10.00.14:774][819]LogMaterial: Missing cached shader map for material Long_Spike_Row_Mat, compiling. 
+[2018.04.10-10.00.14:814][819]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2018.04.10-10.00.16:093][920]MaterialEditorStats: Base pass shader: 81 instructions
+[2018.04.10-10.00.16:093][920]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.04.10-10.00.16:093][920]MaterialEditorStats: Texture samplers: 2/16
+[2018.04.10-10.00.16:093][920]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-10.00.49:974][278]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Adrian\Desktop\download.jpg)
+[2018.04.10-10.00.49:990][278]LogTexture: Display: Building textures: download (BGRA8, 276X183)
+[2018.04.10-10.00.53:302][556]LogMaterial: Missing cached shader map for material download_Mat, compiling. 
+[2018.04.10-10.01.03:268][576]LogEditorTransaction: Undo Modify Component(s)
+[2018.04.10-10.01.03:282][576]LogMaterial: Missing cached shader map for material Long_Spike_Row_Mat, compiling. 
+[2018.04.10-10.01.04:289][642]MaterialEditorStats: Base pass shader: 81 instructions
+[2018.04.10-10.01.04:289][642]MaterialEditorStats: Vertex shader: 31 instructions
+[2018.04.10-10.01.04:289][642]MaterialEditorStats: Texture samplers: 2/16
+[2018.04.10-10.01.04:289][642]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.04.10-10.01.33:525][912]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Main_Menu_Level' took 0.018
+[2018.04.10-10.01.33:528][912]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemies/ObjectFloorPresent1] ([1] browsable assets)...
+[2018.04.10-10.01.33:558][912]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemies/ObjectFloorPresent1.ObjectFloorPresent1]
+[2018.04.10-10.01.33:558][912]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemies/ObjectFloorPresent1]
+[2018.04.10-10.01.33:635][912]LogSavePackage: Save=67.15ms
+[2018.04.10-10.01.33:635][912]LogSavePackage: Moving '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/ObjectFloorPresent1_Auto2DF73DFA84C7E208ACC0977BCF9BB3B8D.tmp' to '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/Autosaves/Game/Enemies/ObjectFloorPresent1_Auto2.uasset'
+[2018.04.10-10.01.33:637][912]LogSavePackage: Display: Finished SavePackage ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/Autosaves/Game/Enemies/ObjectFloorPresent1_Auto2.uasset
+[2018.04.10-10.01.33:638][912]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemies/Spike/download] ([1] browsable assets)...
+[2018.04.10-10.01.33:643][912]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Enemies/Spike/download.download]
+[2018.04.10-10.01.33:643][912]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemies/Spike/download]
+[2018.04.10-10.01.33:652][912]LogSavePackage: Save=7.77ms
+[2018.04.10-10.01.33:652][912]LogSavePackage: Moving '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/download_Auto28D4FF8814A9EFDCD901508B5B33EB86F.tmp' to '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/Autosaves/Game/Enemies/Spike/download_Auto2.uasset'
+[2018.04.10-10.01.33:654][912]LogSavePackage: Display: Finished SavePackage ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/Autosaves/Game/Enemies/Spike/download_Auto2.uasset
+[2018.04.10-10.01.33:655][912]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemies/Spike/download_Mat] ([1] browsable assets)...
+[2018.04.10-10.01.33:686][912]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Enemies/Spike/download_Mat.download_Mat]
+[2018.04.10-10.01.33:686][912]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemies/Spike/download_Mat]
+[2018.04.10-10.01.33:701][912]LogSavePackage: Save=12.79ms
+[2018.04.10-10.01.33:701][912]LogSavePackage: Moving '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/download_Mat_Auto21D281B914672B42A6BDA499ECDABF068.tmp' to '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/Autosaves/Game/Enemies/Spike/download_Mat_Auto2.uasset'
+[2018.04.10-10.01.33:702][912]LogSavePackage: Display: Finished SavePackage ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/Autosaves/Game/Enemies/Spike/download_Mat_Auto2.uasset
+[2018.04.10-10.01.33:703][912]LogFileHelpers: Auto-saving content packages took 0.177
+[2018.04.10-10.11.34:409][692]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Main_Menu_Level' took 0.019
+[2018.04.10-10.11.34:411][692]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Enemies/ObjectFloorPresent1] ([1] browsable assets)...
+[2018.04.10-10.11.34:442][692]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Enemies/ObjectFloorPresent1.ObjectFloorPresent1]
+[2018.04.10-10.11.34:442][692]OBJ SavePackage: Finished generating thumbnails for package [/Game/Enemies/ObjectFloorPresent1]
+[2018.04.10-10.11.34:515][692]LogSavePackage: Save=62.56ms
+[2018.04.10-10.11.34:515][692]LogSavePackage: Moving '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/ObjectFloorPresent1_Auto3335DA7DB4560BEF663E4E7B5C92B79D4.tmp' to '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/Autosaves/Game/Enemies/ObjectFloorPresent1_Auto3.uasset'
+[2018.04.10-10.11.34:517][692]LogSavePackage: Display: Finished SavePackage ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/Autosaves/Game/Enemies/ObjectFloorPresent1_Auto3.uasset
+[2018.04.10-10.11.34:517][692]LogFileHelpers: Auto-saving content packages took 0.107
+[2018.04.10-10.12.22:967][614]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Adrian\Desktop\significado-del-color-naranja.jpg)
+[2018.04.10-10.12.22:973][614]LogTexture: Display: Building textures: significado-del-color-naranja (AutoDXT, 640X380)
+[2018.04.10-10.12.32:294][ 19]LogMaterial: Missing cached shader map for material significado-del-color-naranja_Mat, compiling. 
+[2018.04.10-10.16.27:275][539]LogTemp: Repeating last play command: Selected Viewport
+[2018.04.10-10.16.27:302][539]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Main_Menu_Level.Main_Menu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main_Menu_Level.Main_Menu_Level:PersistentLevel.Main_Menu_Level' with GeneratedClass '/Game/Levels/Main_Menu_Level.Main_Menu_Level_C' with ClassGeneratedBy '/Game/Levels/Main_Menu_Level.Main_Menu_Level:PersistentLevel.Main_Menu_Level'
+[2018.04.10-10.16.27:302][539]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.10-10.16.27:311][539]LogPlayLevel: [PlayLevel] Compiling ObjectFloorPresent1 before play...
+[2018.04.10-10.16.27:679][539]LogPlayLevel: [PlayLevel] Compiling ObjectFloorPast before play...
+[2018.04.10-10.16.27:977][539]LogPlayLevel: PlayLevel: Blueprint regeneration took 675 ms (2 blueprints)
+[2018.04.10-10.16.27:978][539]PIE: New page: PIE session: Main_Menu_Level (Apr 10, 2018, 2:16:27 PM)
+[2018.04.10-10.16.27:979][539]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Main_Menu_Level
+[2018.04.10-10.16.27:980][539]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001055s)
+[2018.04.10-10.16.27:981][539]LogAIModule: Creating AISystem for world Main_Menu_Level
+[2018.04.10-10.16.27:981][539]LogPlayLevel: PIE: World Init took: (0.000623s)
+[2018.04.10-10.16.27:981][539]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Main_Menu_Level.Main_Menu_Level to /Game/Levels/UEDPIE_0_Main_Menu_Level.Main_Menu_Level (0.001943s)
+[2018.04.10-10.16.28:005][539]LogInit: XAudio2 using 'Altavoces (Logitech G430 Gaming Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.04.10-10.16.28:013][539]LogInit: FAudioDevice initialized.
+[2018.04.10-10.16.28:045][539]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.04.10-10.16.28:047][539]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Main_Menu_Level.Main_Menu_Level up for play (max tick rate 0) at 2018.04.10-12.16.28
+[2018.04.10-10.16.28:048][539]LogWorld: Bringing up level for play took: 0.001300
+[2018.04.10-10.16.28:053][539]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Main_Menu_Level 1.19
+[2018.04.10-10.16.28:053][539]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Main_Menu_Level.Main_Menu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main_Menu_Level.Main_Menu_Level:PersistentLevel.Main_Menu_Level' with GeneratedClass '/Game/Levels/Main_Menu_Level.Main_Menu_Level_C' with ClassGeneratedBy '/Game/Levels/Main_Menu_Level.Main_Menu_Level:PersistentLevel.Main_Menu_Level'
+[2018.04.10-10.16.29:842][746]LogNet: Browse: /Game/Levels/Level1
+[2018.04.10-10.16.29:842][746]LogLoad: LoadMap: /Game/Levels/Level1
+[2018.04.10-10.16.29:860][746]Cmd: MEM
+[2018.04.10-10.16.29:876][746]LogMemory: Platform Memory Stats for Windows
+[2018.04.10-10.16.29:876][746]LogMemory: Process Physical Memory: 1814.86 MB used, 1823.39 MB peak
+[2018.04.10-10.16.29:876][746]LogMemory: Process Virtual Memory: 3314.05 MB used, 3321.93 MB peak
+[2018.04.10-10.16.29:876][746]LogMemory: Physical Memory: 5573.57 MB used,  2579.13 MB free, 8152.70 MB total
+[2018.04.10-10.16.29:876][746]LogMemory: Virtual Memory: 4029.41 MB used,  2579.13 MB free, 8388608.00 MB total
+[2018.04.10-10.16.29:876][746]LogMemory: 
+[2018.04.10-10.16.29:876][746]Allocator Stats for TBB: (not implemented)
+[2018.04.10-10.16.30:020][746]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2018.04.10-10.16.30:020][746]LogLinker: Warning: Can't find file '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton'
+[2018.04.10-10.16.30:020][746]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2018.04.10-10.16.30:020][746]LogLinker: Warning: Can't find file for asset '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton' while loading ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/Drone_2/Air_Drone_fbx.uasset.
+[2018.04.10-10.16.30:020][746]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2018.04.10-10.16.30:020][746]LogLinker: Warning: Can't find file '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton'
+[2018.04.10-10.16.30:020][746]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2018.04.10-10.16.30:020][746]LogLinker: Warning: Can't find file for asset '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton' while loading ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/Drone_2/Air_Drone_fbx.uasset.
+[2018.04.10-10.16.30:026][746]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2018.04.10-10.16.30:026][746]LogLinker: Warning: Can't find file '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton'
+[2018.04.10-10.16.30:026][746]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2018.04.10-10.16.30:026][746]LogLinker: Warning: Can't find file for asset '/Game/Enemies/Drone_2/Air_Drone_fbx_propller 1_Skeleton' while loading ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/Drone_2/Air_Drone_fbx.uasset.
+[2018.04.10-10.16.30:026][746]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2018.04.10-10.16.30:026][746]LogLinker: Warning: Can't find file '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton'
+[2018.04.10-10.16.30:026][746]LogPackageName: Error: DoesPackageExist: DoesPackageExist FAILED: '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton' is not a standard unreal filename or a long path name. Reason: Name may not contain the following characters: ' '
+[2018.04.10-10.16.30:026][746]LogLinker: Warning: Can't find file for asset '/Game/Enemies/Drone_2/Air_Drone_fbx_Propllier 2_Skeleton' while loading ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/Drone_2/Air_Drone_fbx.uasset.
+[2018.04.10-10.16.30:314][746]LogAIModule: Creating AISystem for world Level1
+[2018.04.10-10.16.30:314][746]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.04.10-10.16.30:423][746]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2018.04.10-12.16.30
+[2018.04.10-10.16.30:424][746]LogWorld: Bringing up level for play took: 0.109611
+[2018.04.10-10.16.30:426][746]LogLoad: Took 0.583402 seconds to LoadMap(/Game/Levels/Level1)
+[2018.04.10-10.16.39:715][856]LogNet: Browse: /Game/Levels/Game_Over_Level1_Level
+[2018.04.10-10.16.39:715][856]LogLoad: LoadMap: /Game/Levels/Game_Over_Level1_Level
+[2018.04.10-10.16.39:739][856]Cmd: MEM
+[2018.04.10-10.16.39:755][856]LogMemory: Platform Memory Stats for Windows
+[2018.04.10-10.16.39:755][856]LogMemory: Process Physical Memory: 1883.52 MB used, 1936.05 MB peak
+[2018.04.10-10.16.39:755][856]LogMemory: Process Virtual Memory: 3374.93 MB used, 3518.04 MB peak
+[2018.04.10-10.16.39:755][856]LogMemory: Physical Memory: 5648.24 MB used,  2504.46 MB free, 8152.70 MB total
+[2018.04.10-10.16.39:755][856]LogMemory: Virtual Memory: 4094.91 MB used,  2504.46 MB free, 8388608.00 MB total
+[2018.04.10-10.16.39:755][856]LogMemory: 
+[2018.04.10-10.16.39:755][856]Allocator Stats for TBB: (not implemented)
+[2018.04.10-10.16.39:824][856]LogAIModule: Creating AISystem for world Game_Over_Level1_Level
+[2018.04.10-10.16.39:824][856]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2018.04.10-10.16.39:826][856]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Game_Over_Level1_Level.Game_Over_Level1_Level up for play (max tick rate 0) at 2018.04.10-12.16.39
+[2018.04.10-10.16.39:826][856]LogWorld: Bringing up level for play took: 0.001168
+[2018.04.10-10.16.39:827][856]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.04.10-10.16.39:829][856]LogLoad: Took 0.113107 seconds to LoadMap(/Game/Levels/Game_Over_Level1_Level)
+[2018.04.10-10.16.41:027][999]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Main_Menu_Level.Main_Menu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main_Menu_Level.Main_Menu_Level:PersistentLevel.Main_Menu_Level' with GeneratedClass '/Game/Levels/Main_Menu_Level.Main_Menu_Level_C' with ClassGeneratedBy '/Game/Levels/Main_Menu_Level.Main_Menu_Level:PersistentLevel.Main_Menu_Level'
+[2018.04.10-10.16.41:058][999]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Main_Menu_Level.Main_Menu_Level:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Main_Menu_Level.Main_Menu_Level:PersistentLevel.Main_Menu_Level' with GeneratedClass '/Game/Levels/Main_Menu_Level.Main_Menu_Level_C' with ClassGeneratedBy '/Game/Levels/Main_Menu_Level.Main_Menu_Level:PersistentLevel.Main_Menu_Level'
+[2018.04.10-10.16.44:822][324]LogSavePackage: Save=60.33ms
+[2018.04.10-10.16.44:822][324]LogSavePackage: Moving '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/ObjectFloorPresent1474BC16A42954F02E11E20AAA104D14A.tmp' to '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/ObjectFloorPresent1.uasset'
+[2018.04.10-10.16.44:826][324]LogSavePackage: Display: Finished SavePackage ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/ObjectFloorPresent1.uasset
+[2018.04.10-10.16.44:924][324]LogSavePackage: Save=68.99ms
+[2018.04.10-10.16.44:924][324]LogSavePackage: Moving '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/ObjectFloorPast4BFA5D6642B3A7E640801FB7904042CA.tmp' to '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/ObjectFloorPast.uasset'
+[2018.04.10-10.16.44:928][324]LogSavePackage: Display: Finished SavePackage ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/ObjectFloorPast.uasset
+[2018.04.10-10.16.44:967][324]LogSavePackage: Save=15.92ms
+[2018.04.10-10.16.44:967][324]LogSavePackage: Moving '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/Long_Spike_Row_MatC90141B94F90F00FED458EA2EDD68494.tmp' to '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/Spike/Long_Spike_Row_Mat.uasset'
+[2018.04.10-10.16.44:970][324]LogSavePackage: Display: Finished SavePackage ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/Spike/Long_Spike_Row_Mat.uasset
+[2018.04.10-10.16.44:993][324]LogSavePackage: Save=6.48ms
+[2018.04.10-10.16.44:993][324]LogSavePackage: Moving '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/Long_Spike_Row899BC97E4445E16116FC91ADAC2A0D1B.tmp' to '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/Spike/Long_Spike_Row.uasset'
+[2018.04.10-10.16.44:996][324]LogSavePackage: Display: Finished SavePackage ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/Spike/Long_Spike_Row.uasset
+[2018.04.10-10.16.45:018][324]LogSavePackage: Save=13.65ms
+[2018.04.10-10.16.45:018][324]LogSavePackage: Moving '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/download53287251449FB368D19E7AA30B42E4EB.tmp' to '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/Spike/download.uasset'
+[2018.04.10-10.16.45:022][324]LogSavePackage: Display: Finished SavePackage ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/Spike/download.uasset
+[2018.04.10-10.16.45:052][324]LogSavePackage: Save=12.69ms
+[2018.04.10-10.16.45:052][324]LogSavePackage: Moving '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/download_MatE4D68E8E4ED5DC8842B72181F00BA37E.tmp' to '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/Spike/download_Mat.uasset'
+[2018.04.10-10.16.45:055][324]LogSavePackage: Display: Finished SavePackage ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/Spike/download_Mat.uasset
+[2018.04.10-10.16.45:078][324]LogSavePackage: Save=10.10ms
+[2018.04.10-10.16.45:079][324]LogSavePackage: Moving '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/significado-del-color-naranja15B8544F40EC46F699423982F84B91DF.tmp' to '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/Spike/significado-del-color-naranja.uasset'
+[2018.04.10-10.16.45:082][324]LogSavePackage: Display: Finished SavePackage ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/Spike/significado-del-color-naranja.uasset
+[2018.04.10-10.16.45:113][324]LogSavePackage: Save=11.55ms
+[2018.04.10-10.16.45:113][324]LogSavePackage: Moving '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Saved/significado-del-color-naranja_Mat4ACA2349450F798BFACF46B5DDB6DA12.tmp' to '../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/Spike/significado-del-color-naranja_Mat.uasset'
+[2018.04.10-10.16.45:116][324]LogSavePackage: Display: Finished SavePackage ../../../../Users/Adrian/Desktop/Top secret/ADRIA/Universidad/3r Grado/Diseño/RunnerGame/Game/Content/Enemies/Spike/significado-del-color-naranja_Mat.uasset
